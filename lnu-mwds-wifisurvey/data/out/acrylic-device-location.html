@@ -1,0 +1,4308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_033364fb455ba39ebe0026f60141961b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_033364fb455ba39ebe0026f60141961b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_033364fb455ba39ebe0026f60141961b = L.map(
+                "map_033364fb455ba39ebe0026f60141961b",
+                {
+                    center: [56.853997, 14.832758],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 19,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_92f46785552777e19f952cb7bd55c743 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var marker_59dbda1302df77e4e5c49bf549d59c02 = L.marker(
+                [56.85406730693123, 14.832878939341757],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4bcf12591b12aa09448323f2d92cd792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59dbda1302df77e4e5c49bf549d59c02.setIcon(icon_4bcf12591b12aa09448323f2d92cd792);
+        
+    
+        var popup_83b27bc2a0ffcadde40b37b0d803c2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c304f8d9a577e0ccc30cc111f677e6bf = $(`<div id="html_c304f8d9a577e0ccc30cc111f677e6bf" style="width: 100.0%; height: 100.0%;">SSID: It-verkstad 2.4 Ghz <br> MAC: 14:91:82:37:71:14 <br> Channel: 1</div>`)[0];
+                popup_83b27bc2a0ffcadde40b37b0d803c2ed.setContent(html_c304f8d9a577e0ccc30cc111f677e6bf);
+            
+        
+
+        marker_59dbda1302df77e4e5c49bf549d59c02.bindPopup(popup_83b27bc2a0ffcadde40b37b0d803c2ed)
+        ;
+
+        
+    
+    
+            var marker_f36dbf333dabe104972446df66eb102d = L.marker(
+                [56.85404217593063, 14.832671993765333],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_38004c660a82f6e2d38ff1187f1ff9e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f36dbf333dabe104972446df66eb102d.setIcon(icon_38004c660a82f6e2d38ff1187f1ff9e8);
+        
+    
+        var popup_3b1a3f0a1fe6b9de09b47b38b0e2c40d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3da7491383184395cd61b83e5ff8e146 = $(`<div id="html_3da7491383184395cd61b83e5ff8e146" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:27:40 <br> Channel: 11</div>`)[0];
+                popup_3b1a3f0a1fe6b9de09b47b38b0e2c40d.setContent(html_3da7491383184395cd61b83e5ff8e146);
+            
+        
+
+        marker_f36dbf333dabe104972446df66eb102d.bindPopup(popup_3b1a3f0a1fe6b9de09b47b38b0e2c40d)
+        ;
+
+        
+    
+    
+            var marker_a4ba9127c8ce980a9929d2c16f025b65 = L.marker(
+                [56.85408098555259, 14.832810504095894],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d4dd67ac3b32d861d28542225cbad479 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4ba9127c8ce980a9929d2c16f025b65.setIcon(icon_d4dd67ac3b32d861d28542225cbad479);
+        
+    
+        var popup_e45e407df3658ee6796f8b77eee6b0de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d91df6c5a1cfd6376c7810ddb756dd = $(`<div id="html_a3d91df6c5a1cfd6376c7810ddb756dd" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:27:42 <br> Channel: 11</div>`)[0];
+                popup_e45e407df3658ee6796f8b77eee6b0de.setContent(html_a3d91df6c5a1cfd6376c7810ddb756dd);
+            
+        
+
+        marker_a4ba9127c8ce980a9929d2c16f025b65.bindPopup(popup_e45e407df3658ee6796f8b77eee6b0de)
+        ;
+
+        
+    
+    
+            var marker_a81d0db86f602bf241faf192052826c7 = L.marker(
+                [56.8539976468253, 14.832771592415298],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_dc54b5d934e46b4c752a68ae4c0ea965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a81d0db86f602bf241faf192052826c7.setIcon(icon_dc54b5d934e46b4c752a68ae4c0ea965);
+        
+    
+        var popup_acb656e961e09f26fbe0fa016fb1b769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7757f545003db4d715a821826ccf3d = $(`<div id="html_0c7757f545003db4d715a821826ccf3d" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:28:C2 <br> Channel: 11</div>`)[0];
+                popup_acb656e961e09f26fbe0fa016fb1b769.setContent(html_0c7757f545003db4d715a821826ccf3d);
+            
+        
+
+        marker_a81d0db86f602bf241faf192052826c7.bindPopup(popup_acb656e961e09f26fbe0fa016fb1b769)
+        ;
+
+        
+    
+    
+            var marker_e85594938471af55f0c46999964a3c24 = L.marker(
+                [56.85400920272207, 14.832651966384475],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_00a35853c51cc0040b9ef155925e42be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e85594938471af55f0c46999964a3c24.setIcon(icon_00a35853c51cc0040b9ef155925e42be);
+        
+    
+        var popup_2be8cefba6109266d68a111b68eeb898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c1d166e67e199628eaccea0ab14fdbd = $(`<div id="html_7c1d166e67e199628eaccea0ab14fdbd" style="width: 100.0%; height: 100.0%;">SSID: RAK7268CV2_B091 <br> MAC: AC:1F:09:0C:B0:91 <br> Channel: 7</div>`)[0];
+                popup_2be8cefba6109266d68a111b68eeb898.setContent(html_7c1d166e67e199628eaccea0ab14fdbd);
+            
+        
+
+        marker_e85594938471af55f0c46999964a3c24.bindPopup(popup_2be8cefba6109266d68a111b68eeb898)
+        ;
+
+        
+    
+    
+            var marker_1f9306f34ebf5d5650c20fff7a874d52 = L.marker(
+                [56.85395758304488, 14.833356409993856],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_3629ea57100a9b119694ddc8c1de02da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1f9306f34ebf5d5650c20fff7a874d52.setIcon(icon_3629ea57100a9b119694ddc8c1de02da);
+        
+    
+        var popup_24fd927da209e7e3495b3a0cbe93d124 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5566f74b9ab20885464089807d763f62 = $(`<div id="html_5566f74b9ab20885464089807d763f62" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:50:B5:30 <br> Channel: 6</div>`)[0];
+                popup_24fd927da209e7e3495b3a0cbe93d124.setContent(html_5566f74b9ab20885464089807d763f62);
+            
+        
+
+        marker_1f9306f34ebf5d5650c20fff7a874d52.bindPopup(popup_24fd927da209e7e3495b3a0cbe93d124)
+        ;
+
+        
+    
+    
+            var marker_c522fec65e325ba5f775d1e2d862125d = L.marker(
+                [56.854000935788086, 14.833322548466807],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_115268e5fc02496833796b39a885b122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c522fec65e325ba5f775d1e2d862125d.setIcon(icon_115268e5fc02496833796b39a885b122);
+        
+    
+        var popup_c2db746b728b33285208d761bc9a3ee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de387e297932a650ce20da826fe539ea = $(`<div id="html_de387e297932a650ce20da826fe539ea" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:50:B5:32 <br> Channel: 6</div>`)[0];
+                popup_c2db746b728b33285208d761bc9a3ee9.setContent(html_de387e297932a650ce20da826fe539ea);
+            
+        
+
+        marker_c522fec65e325ba5f775d1e2d862125d.bindPopup(popup_c2db746b728b33285208d761bc9a3ee9)
+        ;
+
+        
+    
+    
+            var marker_3bac64583dda9b7f0a328d47e721956b = L.marker(
+                [56.854026118023405, 14.832651932393347],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_b1cdf544c0aac43869bc9bd26809c3b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3bac64583dda9b7f0a328d47e721956b.setIcon(icon_b1cdf544c0aac43869bc9bd26809c3b8);
+        
+    
+        var popup_2a0cdde3c80af1f3c2df2fa04a516e72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9543585f90e22c21cedab804da10bb5d = $(`<div id="html_9543585f90e22c21cedab804da10bb5d" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5E:A8:10 <br> Channel: 11</div>`)[0];
+                popup_2a0cdde3c80af1f3c2df2fa04a516e72.setContent(html_9543585f90e22c21cedab804da10bb5d);
+            
+        
+
+        marker_3bac64583dda9b7f0a328d47e721956b.bindPopup(popup_2a0cdde3c80af1f3c2df2fa04a516e72)
+        ;
+
+        
+    
+    
+            var marker_5ebe48c023c0aa124e50afce4d6ee6b2 = L.marker(
+                [56.854020361442714, 14.83265234665437],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_470aa4e4d749c36176918866f02dd590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ebe48c023c0aa124e50afce4d6ee6b2.setIcon(icon_470aa4e4d749c36176918866f02dd590);
+        
+    
+        var popup_3086f11caaf16b411bdd250b29494ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77c9764589545f0581b532af2f705f55 = $(`<div id="html_77c9764589545f0581b532af2f705f55" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5E:A8:12 <br> Channel: 11</div>`)[0];
+                popup_3086f11caaf16b411bdd250b29494ee6.setContent(html_77c9764589545f0581b532af2f705f55);
+            
+        
+
+        marker_5ebe48c023c0aa124e50afce4d6ee6b2.bindPopup(popup_3086f11caaf16b411bdd250b29494ee6)
+        ;
+
+        
+    
+    
+            var marker_98f1a6089aad12439fc85fdd9729ca03 = L.marker(
+                [56.85397137028429, 14.833307229775064],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_dc3dfea2ab029d7287c09a58322bee5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_98f1a6089aad12439fc85fdd9729ca03.setIcon(icon_dc3dfea2ab029d7287c09a58322bee5b);
+        
+    
+        var popup_d4afa67c1e94d042f97884c953b2daa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_913cee4db78552e2023f141d9dfdb818 = $(`<div id="html_913cee4db78552e2023f141d9dfdb818" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5F:40:10 <br> Channel: 1</div>`)[0];
+                popup_d4afa67c1e94d042f97884c953b2daa4.setContent(html_913cee4db78552e2023f141d9dfdb818);
+            
+        
+
+        marker_98f1a6089aad12439fc85fdd9729ca03.bindPopup(popup_d4afa67c1e94d042f97884c953b2daa4)
+        ;
+
+        
+    
+    
+            var marker_5c7d4b5f74c748a6ea9b7fccf6399904 = L.marker(
+                [56.853973858197286, 14.833308206588933],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_a7f53d4f75ae1f82e38bf5eee60b1d4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5c7d4b5f74c748a6ea9b7fccf6399904.setIcon(icon_a7f53d4f75ae1f82e38bf5eee60b1d4e);
+        
+    
+        var popup_b5287260a826bcbaf598a41f16202a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25d2920d33a20a3670070df637b48e4c = $(`<div id="html_25d2920d33a20a3670070df637b48e4c" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5F:40:12 <br> Channel: 1</div>`)[0];
+                popup_b5287260a826bcbaf598a41f16202a14.setContent(html_25d2920d33a20a3670070df637b48e4c);
+            
+        
+
+        marker_5c7d4b5f74c748a6ea9b7fccf6399904.bindPopup(popup_b5287260a826bcbaf598a41f16202a14)
+        ;
+
+        
+    
+    
+            var marker_3f8b21a7327eb0df999defc86e4e89cb = L.marker(
+                [56.85390379600231, 14.833346582376038],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_6825a81bafe38de86661fe82300998da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3f8b21a7327eb0df999defc86e4e89cb.setIcon(icon_6825a81bafe38de86661fe82300998da);
+        
+    
+        var popup_04d022563ddf571e0b2f37567771e0d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15d95aa47c5950042913661252be6852 = $(`<div id="html_15d95aa47c5950042913661252be6852" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5F:4B:F0 <br> Channel: 11</div>`)[0];
+                popup_04d022563ddf571e0b2f37567771e0d4.setContent(html_15d95aa47c5950042913661252be6852);
+            
+        
+
+        marker_3f8b21a7327eb0df999defc86e4e89cb.bindPopup(popup_04d022563ddf571e0b2f37567771e0d4)
+        ;
+
+        
+    
+    
+            var marker_668c8bd23775a7db02cf15655a09de07 = L.marker(
+                [56.85390271351072, 14.833344613874196],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_8bb17da573023eababa9bf57cbcbde57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_668c8bd23775a7db02cf15655a09de07.setIcon(icon_8bb17da573023eababa9bf57cbcbde57);
+        
+    
+        var popup_2fede7235778ade2bdd40e9efdd403fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d39223bced796914a1d0edfcb0449e05 = $(`<div id="html_d39223bced796914a1d0edfcb0449e05" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5F:4B:F2 <br> Channel: 11</div>`)[0];
+                popup_2fede7235778ade2bdd40e9efdd403fa.setContent(html_d39223bced796914a1d0edfcb0449e05);
+            
+        
+
+        marker_668c8bd23775a7db02cf15655a09de07.bindPopup(popup_2fede7235778ade2bdd40e9efdd403fa)
+        ;
+
+        
+    
+    
+            var marker_57f4f7fbf92c9b1a071e208a3c9b5c94 = L.marker(
+                [56.85408759817502, 14.832821153104305],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_eb353b3ee2336b6aae8452814f6b9928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57f4f7fbf92c9b1a071e208a3c9b5c94.setIcon(icon_eb353b3ee2336b6aae8452814f6b9928);
+        
+    
+        var popup_bb04207e41534a864e03f8f21d5ecc74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7d6904d201a52543a96ad6839b4297b = $(`<div id="html_f7d6904d201a52543a96ad6839b4297b" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:D6:9E:72 <br> Channel: 6</div>`)[0];
+                popup_bb04207e41534a864e03f8f21d5ecc74.setContent(html_f7d6904d201a52543a96ad6839b4297b);
+            
+        
+
+        marker_57f4f7fbf92c9b1a071e208a3c9b5c94.bindPopup(popup_bb04207e41534a864e03f8f21d5ecc74)
+        ;
+
+        
+    
+    
+            var marker_2c79ca7b27a76fee97123718f5f8a4d7 = L.marker(
+                [56.85411848615051, 14.833003734063391],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_e36e8bd2e4d3c274a3d59a6b7cbbc7c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c79ca7b27a76fee97123718f5f8a4d7.setIcon(icon_e36e8bd2e4d3c274a3d59a6b7cbbc7c4);
+        
+    
+        var popup_53780910fe6fff7127762faca350d2a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69eacd7740441e867cd2eed73760bb61 = $(`<div id="html_69eacd7740441e867cd2eed73760bb61" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:E9:0D <br> Channel: 64</div>`)[0];
+                popup_53780910fe6fff7127762faca350d2a0.setContent(html_69eacd7740441e867cd2eed73760bb61);
+            
+        
+
+        marker_2c79ca7b27a76fee97123718f5f8a4d7.bindPopup(popup_53780910fe6fff7127762faca350d2a0)
+        ;
+
+        
+    
+    
+            var marker_6a57175cb127d7e9e924755f9377ec0f = L.marker(
+                [56.85413376222208, 14.833013925983131],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_dcb226803346567097afdff17aadd0cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6a57175cb127d7e9e924755f9377ec0f.setIcon(icon_dcb226803346567097afdff17aadd0cd);
+        
+    
+        var popup_28dae017b0ad44de57d4e2e242b83bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ab0d053855321b87cb2cbf70779c16c = $(`<div id="html_9ab0d053855321b87cb2cbf70779c16c" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:E9:0F <br> Channel: 64</div>`)[0];
+                popup_28dae017b0ad44de57d4e2e242b83bd6.setContent(html_9ab0d053855321b87cb2cbf70779c16c);
+            
+        
+
+        marker_6a57175cb127d7e9e924755f9377ec0f.bindPopup(popup_28dae017b0ad44de57d4e2e242b83bd6)
+        ;
+
+        
+    
+    
+            var marker_da9be93fd44b2c8711e7b9c02de8656e = L.marker(
+                [56.85395518488074, 14.83333934857588],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ced54e8ff29369212e2ccd57c160891a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_da9be93fd44b2c8711e7b9c02de8656e.setIcon(icon_ced54e8ff29369212e2ccd57c160891a);
+        
+    
+        var popup_79e51b91242e3442c8d74e75a3647783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d330bf699ce4e7458279a453dca398f = $(`<div id="html_6d330bf699ce4e7458279a453dca398f" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:F0:AD <br> Channel: 116</div>`)[0];
+                popup_79e51b91242e3442c8d74e75a3647783.setContent(html_6d330bf699ce4e7458279a453dca398f);
+            
+        
+
+        marker_da9be93fd44b2c8711e7b9c02de8656e.bindPopup(popup_79e51b91242e3442c8d74e75a3647783)
+        ;
+
+        
+    
+    
+            var marker_62e1ba4f262562d55124e41dcd85a4be = L.marker(
+                [56.853976207566596, 14.833311629207696],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_08624b1feca875d3615bebcc70f5fd52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_62e1ba4f262562d55124e41dcd85a4be.setIcon(icon_08624b1feca875d3615bebcc70f5fd52);
+        
+    
+        var popup_5afdcfe3c6587ca780bb2d5cb6a2987f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1190808c677236884fbfeb74fb58a490 = $(`<div id="html_1190808c677236884fbfeb74fb58a490" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:F0:AF <br> Channel: 116</div>`)[0];
+                popup_5afdcfe3c6587ca780bb2d5cb6a2987f.setContent(html_1190808c677236884fbfeb74fb58a490);
+            
+        
+
+        marker_62e1ba4f262562d55124e41dcd85a4be.bindPopup(popup_5afdcfe3c6587ca780bb2d5cb6a2987f)
+        ;
+
+        
+    
+    
+            var marker_658e1fa142bb6da6a241dfc43d13c0a0 = L.marker(
+                [56.85407438766708, 14.83288478571922],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_806d1bbe0e3c0ff6006ba73cef632a3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_658e1fa142bb6da6a241dfc43d13c0a0.setIcon(icon_806d1bbe0e3c0ff6006ba73cef632a3a);
+        
+    
+        var popup_0bbf08c88213bbe14543c8ee0982d9ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c65c91c1f967f8aaffb13ad1ebc6e7 = $(`<div id="html_d1c65c91c1f967f8aaffb13ad1ebc6e7" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:27:4D <br> Channel: 100</div>`)[0];
+                popup_0bbf08c88213bbe14543c8ee0982d9ad.setContent(html_d1c65c91c1f967f8aaffb13ad1ebc6e7);
+            
+        
+
+        marker_658e1fa142bb6da6a241dfc43d13c0a0.bindPopup(popup_0bbf08c88213bbe14543c8ee0982d9ad)
+        ;
+
+        
+    
+    
+            var marker_5b41dcc8853b8dd5e3bdd2bf99eca50a = L.marker(
+                [56.85407696264491, 14.832861663833741],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_bdf22ffe304c5d2e711e0e9849ca36dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5b41dcc8853b8dd5e3bdd2bf99eca50a.setIcon(icon_bdf22ffe304c5d2e711e0e9849ca36dd);
+        
+    
+        var popup_af9cf033101b3b39825c8c60630b5d2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12015af6c9da90ff71f6829ba10eb77e = $(`<div id="html_12015af6c9da90ff71f6829ba10eb77e" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:27:4F <br> Channel: 100</div>`)[0];
+                popup_af9cf033101b3b39825c8c60630b5d2f.setContent(html_12015af6c9da90ff71f6829ba10eb77e);
+            
+        
+
+        marker_5b41dcc8853b8dd5e3bdd2bf99eca50a.bindPopup(popup_af9cf033101b3b39825c8c60630b5d2f)
+        ;
+
+        
+    
+    
+            var marker_9f327b84c8c2d9476a684c7242dcce9c = L.marker(
+                [56.854022880874126, 14.832671468748766],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_3eb611b96e41ea4916a0a0158042c45b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9f327b84c8c2d9476a684c7242dcce9c.setIcon(icon_3eb611b96e41ea4916a0a0158042c45b);
+        
+    
+        var popup_2e09f0162195578bbade308817dee527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f19cf9a5790554dde20f79eb3f76870 = $(`<div id="html_2f19cf9a5790554dde20f79eb3f76870" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:28:CD <br> Channel: 108</div>`)[0];
+                popup_2e09f0162195578bbade308817dee527.setContent(html_2f19cf9a5790554dde20f79eb3f76870);
+            
+        
+
+        marker_9f327b84c8c2d9476a684c7242dcce9c.bindPopup(popup_2e09f0162195578bbade308817dee527)
+        ;
+
+        
+    
+    
+            var marker_04e56d5ba2fe16e60914b5bf1e435a30 = L.marker(
+                [56.85400230692942, 14.832800715527638],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4d2a4afe806348ae3603c43e78a83aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_04e56d5ba2fe16e60914b5bf1e435a30.setIcon(icon_4d2a4afe806348ae3603c43e78a83aba);
+        
+    
+        var popup_ae5361fb98e9e7949edca98b19b7aa61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833a4e0fde2dea8206a9677f28ac4e30 = $(`<div id="html_833a4e0fde2dea8206a9677f28ac4e30" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:28:CF <br> Channel: 108</div>`)[0];
+                popup_ae5361fb98e9e7949edca98b19b7aa61.setContent(html_833a4e0fde2dea8206a9677f28ac4e30);
+            
+        
+
+        marker_04e56d5ba2fe16e60914b5bf1e435a30.bindPopup(popup_ae5361fb98e9e7949edca98b19b7aa61)
+        ;
+
+        
+    
+    
+            var marker_3b7a395dc1f4f727c16c21bd2ec8ab9f = L.marker(
+                [56.85395431266002, 14.83336440699045],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ba645c4e60b7ccf760e4c50d4e014e90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3b7a395dc1f4f727c16c21bd2ec8ab9f.setIcon(icon_ba645c4e60b7ccf760e4c50d4e014e90);
+        
+    
+        var popup_5b94b9d3bb62ab2d645889cf17ca8e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cef84dfc2eceb4502d3314eafd5b30f9 = $(`<div id="html_cef84dfc2eceb4502d3314eafd5b30f9" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:50:B5:3D <br> Channel: 104</div>`)[0];
+                popup_5b94b9d3bb62ab2d645889cf17ca8e38.setContent(html_cef84dfc2eceb4502d3314eafd5b30f9);
+            
+        
+
+        marker_3b7a395dc1f4f727c16c21bd2ec8ab9f.bindPopup(popup_5b94b9d3bb62ab2d645889cf17ca8e38)
+        ;
+
+        
+    
+    
+            var marker_6eb62e8adc97d82ac82db576306e484b = L.marker(
+                [56.85399652773739, 14.833324866469585],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_cf75ca80a7a16b774d25f573e5e2ab79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6eb62e8adc97d82ac82db576306e484b.setIcon(icon_cf75ca80a7a16b774d25f573e5e2ab79);
+        
+    
+        var popup_79d17d459841927e848a1fd49965e3ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_608aaeafc6344af741830ec0820ba133 = $(`<div id="html_608aaeafc6344af741830ec0820ba133" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:50:B5:3F <br> Channel: 104</div>`)[0];
+                popup_79d17d459841927e848a1fd49965e3ca.setContent(html_608aaeafc6344af741830ec0820ba133);
+            
+        
+
+        marker_6eb62e8adc97d82ac82db576306e484b.bindPopup(popup_79d17d459841927e848a1fd49965e3ca)
+        ;
+
+        
+    
+    
+            var marker_faf51f400e8d4b76df43be4171f63d90 = L.marker(
+                [56.85401601768507, 14.832651283471813],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_c6d681485da5d7cc1f441f780f2bc3aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_faf51f400e8d4b76df43be4171f63d90.setIcon(icon_c6d681485da5d7cc1f441f780f2bc3aa);
+        
+    
+        var popup_361c43d625069cbc6d4dad22c75866a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51156c7ac1a2a65028ff3cdc5a7a2d37 = $(`<div id="html_51156c7ac1a2a65028ff3cdc5a7a2d37" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5E:A8:1D <br> Channel: 48</div>`)[0];
+                popup_361c43d625069cbc6d4dad22c75866a3.setContent(html_51156c7ac1a2a65028ff3cdc5a7a2d37);
+            
+        
+
+        marker_faf51f400e8d4b76df43be4171f63d90.bindPopup(popup_361c43d625069cbc6d4dad22c75866a3)
+        ;
+
+        
+    
+    
+            var marker_3645fca493ead8f6ac10f2b8ed8c98ae = L.marker(
+                [56.854020361442714, 14.83265234665437],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_3cc3e76ff078053f9c4a87aafe369649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3645fca493ead8f6ac10f2b8ed8c98ae.setIcon(icon_3cc3e76ff078053f9c4a87aafe369649);
+        
+    
+        var popup_99f785acc55aebec1317e2e7b5aa16cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_522d56e3ed85e4d31269a0150079d1a3 = $(`<div id="html_522d56e3ed85e4d31269a0150079d1a3" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5E:A8:1F <br> Channel: 48</div>`)[0];
+                popup_99f785acc55aebec1317e2e7b5aa16cc.setContent(html_522d56e3ed85e4d31269a0150079d1a3);
+            
+        
+
+        marker_3645fca493ead8f6ac10f2b8ed8c98ae.bindPopup(popup_99f785acc55aebec1317e2e7b5aa16cc)
+        ;
+
+        
+    
+    
+            var marker_44983af39fdd69542c6a6799cb2eb4a5 = L.marker(
+                [56.85392981430379, 14.833378833416221],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d529f0e75cd6885bfa73ffea307a9d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_44983af39fdd69542c6a6799cb2eb4a5.setIcon(icon_d529f0e75cd6885bfa73ffea307a9d43);
+        
+    
+        var popup_8a3b21e18988cf98c8916d356633f3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc0ff6243689ebfeb76c0a7e2ca66359 = $(`<div id="html_cc0ff6243689ebfeb76c0a7e2ca66359" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5F:40:1D <br> Channel: 44</div>`)[0];
+                popup_8a3b21e18988cf98c8916d356633f3bc.setContent(html_cc0ff6243689ebfeb76c0a7e2ca66359);
+            
+        
+
+        marker_44983af39fdd69542c6a6799cb2eb4a5.bindPopup(popup_8a3b21e18988cf98c8916d356633f3bc)
+        ;
+
+        
+    
+    
+            var marker_b5425769d685bf0768b7780833dce20b = L.marker(
+                [56.85390429227285, 14.833369270751348],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_1b293cd6408d1af2114f1e570436ec28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b5425769d685bf0768b7780833dce20b.setIcon(icon_1b293cd6408d1af2114f1e570436ec28);
+        
+    
+        var popup_74f05c67e61a3af7c0c55498b3e73303 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e68838e14f6eb033f184e847a4ae2bb8 = $(`<div id="html_e68838e14f6eb033f184e847a4ae2bb8" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5F:40:1F <br> Channel: 44</div>`)[0];
+                popup_74f05c67e61a3af7c0c55498b3e73303.setContent(html_e68838e14f6eb033f184e847a4ae2bb8);
+            
+        
+
+        marker_b5425769d685bf0768b7780833dce20b.bindPopup(popup_74f05c67e61a3af7c0c55498b3e73303)
+        ;
+
+        
+    
+    
+            var marker_e334ea496225d34fd056f5c05be3876f = L.marker(
+                [56.85390492412336, 14.833343453132187],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_a50c9e612852430c08de3fd05b5408b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e334ea496225d34fd056f5c05be3876f.setIcon(icon_a50c9e612852430c08de3fd05b5408b2);
+        
+    
+        var popup_d6c40271bb29dde798b0e51019121fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9e1190d373b5a5ee57dbdd8743b2cea = $(`<div id="html_a9e1190d373b5a5ee57dbdd8743b2cea" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:5F:4B:FD <br> Channel: 40</div>`)[0];
+                popup_d6c40271bb29dde798b0e51019121fc0.setContent(html_a9e1190d373b5a5ee57dbdd8743b2cea);
+            
+        
+
+        marker_e334ea496225d34fd056f5c05be3876f.bindPopup(popup_d6c40271bb29dde798b0e51019121fc0)
+        ;
+
+        
+    
+    
+            var marker_5da499d77e39d0f2941e0ae0634437f4 = L.marker(
+                [56.85390005515372, 14.833348912939634],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ded5d0a89972ffff91be4be4075cb6ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5da499d77e39d0f2941e0ae0634437f4.setIcon(icon_ded5d0a89972ffff91be4be4075cb6ea);
+        
+    
+        var popup_02052dfc35391546fde8ab9907c634e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ba876e4c07abbcbc1ba49f5ad7e19e = $(`<div id="html_f5ba876e4c07abbcbc1ba49f5ad7e19e" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:5F:4B:FF <br> Channel: 40</div>`)[0];
+                popup_02052dfc35391546fde8ab9907c634e5.setContent(html_f5ba876e4c07abbcbc1ba49f5ad7e19e);
+            
+        
+
+        marker_5da499d77e39d0f2941e0ae0634437f4.bindPopup(popup_02052dfc35391546fde8ab9907c634e5)
+        ;
+
+        
+    
+    
+            var marker_be503e61025acb093cc544e98408ec9e = L.marker(
+                [56.85402731606003, 14.833284785541204],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_84b110902c278f87d45d2584ae3c0c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_be503e61025acb093cc544e98408ec9e.setIcon(icon_84b110902c278f87d45d2584ae3c0c4f);
+        
+    
+        var popup_1e9b757844de631ad0696fbb6671442d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c1516b4f4ecd17c7afdd6ef189d8203 = $(`<div id="html_9c1516b4f4ecd17c7afdd6ef189d8203" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 58:97:BD:66:A8:42 <br> Channel: 11</div>`)[0];
+                popup_1e9b757844de631ad0696fbb6671442d.setContent(html_9c1516b4f4ecd17c7afdd6ef189d8203);
+            
+        
+
+        marker_be503e61025acb093cc544e98408ec9e.bindPopup(popup_1e9b757844de631ad0696fbb6671442d)
+        ;
+
+        
+    
+    
+            var marker_eecc492d06ece15792c18ba3523adfd6 = L.marker(
+                [56.85413112702412, 14.832891908131147],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_fe7cc17bcf1c177b26b9300c8df860d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eecc492d06ece15792c18ba3523adfd6.setIcon(icon_fe7cc17bcf1c177b26b9300c8df860d8);
+        
+    
+        var popup_a667dfc86d667c94ff10800f383a2546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7126a796fd58d3a089fbf8e977d8290f = $(`<div id="html_7126a796fd58d3a089fbf8e977d8290f" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:E9:00 <br> Channel: 1</div>`)[0];
+                popup_a667dfc86d667c94ff10800f383a2546.setContent(html_7126a796fd58d3a089fbf8e977d8290f);
+            
+        
+
+        marker_eecc492d06ece15792c18ba3523adfd6.bindPopup(popup_a667dfc86d667c94ff10800f383a2546)
+        ;
+
+        
+    
+    
+            var marker_168685653b5cacacdf8e07fcdf4843c6 = L.marker(
+                [56.85410301682316, 14.832866507418016],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2870df0e4531ceed59d7774bf49c526f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_168685653b5cacacdf8e07fcdf4843c6.setIcon(icon_2870df0e4531ceed59d7774bf49c526f);
+        
+    
+        var popup_a1ddaa8dc9cee703edefb7f718418cd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_206e35f3e892cf846b0c2f6c1827de55 = $(`<div id="html_206e35f3e892cf846b0c2f6c1827de55" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:E9:02 <br> Channel: 1</div>`)[0];
+                popup_a1ddaa8dc9cee703edefb7f718418cd3.setContent(html_206e35f3e892cf846b0c2f6c1827de55);
+            
+        
+
+        marker_168685653b5cacacdf8e07fcdf4843c6.bindPopup(popup_a1ddaa8dc9cee703edefb7f718418cd3)
+        ;
+
+        
+    
+    
+            var marker_d1a3b2f9fe05c56872ff2fbd54c7d0aa = L.marker(
+                [56.8539993682058, 14.832778373046928],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_93b5176e1098a08d5f036d25b5bf935c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d1a3b2f9fe05c56872ff2fbd54c7d0aa.setIcon(icon_93b5176e1098a08d5f036d25b5bf935c);
+        
+    
+        var popup_12436dd112f2200eaa46bf4b7a7a972e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22b88d770a3b2d02f41ee7e83629d5e9 = $(`<div id="html_22b88d770a3b2d02f41ee7e83629d5e9" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:28:C0 <br> Channel: 11</div>`)[0];
+                popup_12436dd112f2200eaa46bf4b7a7a972e.setContent(html_22b88d770a3b2d02f41ee7e83629d5e9);
+            
+        
+
+        marker_d1a3b2f9fe05c56872ff2fbd54c7d0aa.bindPopup(popup_12436dd112f2200eaa46bf4b7a7a972e)
+        ;
+
+        
+    
+    
+            var marker_124af99ac6ed8a758736f31d1ad09a78 = L.marker(
+                [56.85387518871468, 14.833509170061705],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_5ede6fb48dffed97b834cea2c242e108 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_124af99ac6ed8a758736f31d1ad09a78.setIcon(icon_5ede6fb48dffed97b834cea2c242e108);
+        
+    
+        var popup_ce581535732790af7a1f0764251a3def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c49d3c4c0a2823f95cadca556e78a725 = $(`<div id="html_c49d3c4c0a2823f95cadca556e78a725" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:54:60 <br> Channel: 1</div>`)[0];
+                popup_ce581535732790af7a1f0764251a3def.setContent(html_c49d3c4c0a2823f95cadca556e78a725);
+            
+        
+
+        marker_124af99ac6ed8a758736f31d1ad09a78.bindPopup(popup_ce581535732790af7a1f0764251a3def)
+        ;
+
+        
+    
+    
+            var marker_ea32f027452fad461d34eb3c70d3e679 = L.marker(
+                [56.85411105012853, 14.832514311586115],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f0494e2b95bc680b5a1b35f5ed765570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ea32f027452fad461d34eb3c70d3e679.setIcon(icon_f0494e2b95bc680b5a1b35f5ed765570);
+        
+    
+        var popup_d0e4abec399e8b365e97b08b7f02487b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5a642c334377c8715cf3af30d1054e = $(`<div id="html_5f5a642c334377c8715cf3af30d1054e" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:AE:52:60 <br> Channel: 6</div>`)[0];
+                popup_d0e4abec399e8b365e97b08b7f02487b.setContent(html_5f5a642c334377c8715cf3af30d1054e);
+            
+        
+
+        marker_ea32f027452fad461d34eb3c70d3e679.bindPopup(popup_d0e4abec399e8b365e97b08b7f02487b)
+        ;
+
+        
+    
+    
+            var marker_e5dd63af010aa59177210781db8f76a0 = L.marker(
+                [56.854094193707624, 14.832837105445238],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d59feaedc7e12867b80f9ed1d8dff13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e5dd63af010aa59177210781db8f76a0.setIcon(icon_d59feaedc7e12867b80f9ed1d8dff13d);
+        
+    
+        var popup_23ca90679ce1e3460fdac4b490d341cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d865920f2f732b74f96c8de407b57358 = $(`<div id="html_d865920f2f732b74f96c8de407b57358" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:D6:9E:70 <br> Channel: 6</div>`)[0];
+                popup_23ca90679ce1e3460fdac4b490d341cc.setContent(html_d865920f2f732b74f96c8de407b57358);
+            
+        
+
+        marker_e5dd63af010aa59177210781db8f76a0.bindPopup(popup_23ca90679ce1e3460fdac4b490d341cc)
+        ;
+
+        
+    
+    
+            var marker_03d1896561455cd1a17ce3f2080816b1 = L.marker(
+                [56.85406435582477, 14.832686499825542],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_fcd10f913d9d3e70a8e1b7e33abd0e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_03d1896561455cd1a17ce3f2080816b1.setIcon(icon_fcd10f913d9d3e70a8e1b7e33abd0e4a);
+        
+    
+        var popup_ee6230de9ff0bf63ef46ee8fd69391f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c017e1d0db828cccd40a30a3601ca2c = $(`<div id="html_2c017e1d0db828cccd40a30a3601ca2c" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:D6:9E:7D <br> Channel: 40</div>`)[0];
+                popup_ee6230de9ff0bf63ef46ee8fd69391f1.setContent(html_2c017e1d0db828cccd40a30a3601ca2c);
+            
+        
+
+        marker_03d1896561455cd1a17ce3f2080816b1.bindPopup(popup_ee6230de9ff0bf63ef46ee8fd69391f1)
+        ;
+
+        
+    
+    
+            var marker_175cbbc39bec925ec31a17daa379a5ef = L.marker(
+                [56.8540178907858, 14.832841968163848],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d52bf868f99342c962c0a4d902c47da2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_175cbbc39bec925ec31a17daa379a5ef.setIcon(icon_d52bf868f99342c962c0a4d902c47da2);
+        
+    
+        var popup_e71ad7d8a2e1bd4e800d8247cbbd7a25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8abf0d155151f35d870e0cc9d86dbc65 = $(`<div id="html_8abf0d155151f35d870e0cc9d86dbc65" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9B:B7:22 <br> Channel: 1</div>`)[0];
+                popup_e71ad7d8a2e1bd4e800d8247cbbd7a25.setContent(html_8abf0d155151f35d870e0cc9d86dbc65);
+            
+        
+
+        marker_175cbbc39bec925ec31a17daa379a5ef.bindPopup(popup_e71ad7d8a2e1bd4e800d8247cbbd7a25)
+        ;
+
+        
+    
+    
+            var marker_ae14a6f14d635961bd694f23ced43245 = L.marker(
+                [56.854108745532166, 14.83251143779073],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2785f57e4e47983dbc4ed7631870afb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae14a6f14d635961bd694f23ced43245.setIcon(icon_2785f57e4e47983dbc4ed7631870afb1);
+        
+    
+        var popup_700e96a123a57c366c9381bba19b9d5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db388a314ff42efff3669cc7e0e113c = $(`<div id="html_1db388a314ff42efff3669cc7e0e113c" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:AE:52:62 <br> Channel: 6</div>`)[0];
+                popup_700e96a123a57c366c9381bba19b9d5e.setContent(html_1db388a314ff42efff3669cc7e0e113c);
+            
+        
+
+        marker_ae14a6f14d635961bd694f23ced43245.bindPopup(popup_700e96a123a57c366c9381bba19b9d5e)
+        ;
+
+        
+    
+    
+            var marker_6681b87d768ff1f8753b749a3d1c6f80 = L.marker(
+                [56.85404911932895, 14.832677543163292],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_35d8591c0efeb3495884027b2761cedf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6681b87d768ff1f8753b749a3d1c6f80.setIcon(icon_35d8591c0efeb3495884027b2761cedf);
+        
+    
+        var popup_61f15d9a6b17e06f3c21d56547cc0c04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56397129a4a1218cd00f12fca9b1371d = $(`<div id="html_56397129a4a1218cd00f12fca9b1371d" style="width: 100.0%; height: 100.0%;">SSID: It-verkstad 5 Ghz <br> MAC: 14:91:82:37:71:13 <br> Channel: 100</div>`)[0];
+                popup_61f15d9a6b17e06f3c21d56547cc0c04.setContent(html_56397129a4a1218cd00f12fca9b1371d);
+            
+        
+
+        marker_6681b87d768ff1f8753b749a3d1c6f80.bindPopup(popup_61f15d9a6b17e06f3c21d56547cc0c04)
+        ;
+
+        
+    
+    
+            var marker_d0340d6618d8447c492b1842bad71537 = L.marker(
+                [56.853896203363654, 14.833416316488927],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_95da83056af076e09f24c000ef2c59a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d0340d6618d8447c492b1842bad71537.setIcon(icon_95da83056af076e09f24c000ef2c59a8);
+        
+    
+        var popup_0f83ad7a25ad87d35f053d3a65571574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cc21735726b081f0117b57b82a4cfda = $(`<div id="html_4cc21735726b081f0117b57b82a4cfda" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:F8:B2:8D <br> Channel: 40</div>`)[0];
+                popup_0f83ad7a25ad87d35f053d3a65571574.setContent(html_4cc21735726b081f0117b57b82a4cfda);
+            
+        
+
+        marker_d0340d6618d8447c492b1842bad71537.bindPopup(popup_0f83ad7a25ad87d35f053d3a65571574)
+        ;
+
+        
+    
+    
+            var marker_e1c0c2da9acb3ef3322e0844d9daa8c1 = L.marker(
+                [56.85412068750919, 14.832515493035316],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f32e8c5e1fd0362c3aea881876d8b127 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1c0c2da9acb3ef3322e0844d9daa8c1.setIcon(icon_f32e8c5e1fd0362c3aea881876d8b127);
+        
+    
+        var popup_0f25691acd3ff203c6e2a6df3bc24805 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_242abcf931f45722f23710a472308bd5 = $(`<div id="html_242abcf931f45722f23710a472308bd5" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:AE:52:6D <br> Channel: 64</div>`)[0];
+                popup_0f25691acd3ff203c6e2a6df3bc24805.setContent(html_242abcf931f45722f23710a472308bd5);
+            
+        
+
+        marker_e1c0c2da9acb3ef3322e0844d9daa8c1.bindPopup(popup_0f25691acd3ff203c6e2a6df3bc24805)
+        ;
+
+        
+    
+    
+            var marker_91c3e7920f8a9235cc59bbbcf27d65a0 = L.marker(
+                [56.85409218408839, 14.832747280597685],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_6facd02974118fc75fb25d0cde9ba54b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_91c3e7920f8a9235cc59bbbcf27d65a0.setIcon(icon_6facd02974118fc75fb25d0cde9ba54b);
+        
+    
+        var popup_10fdd685bc6ec371de9f796ce69228c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf301ac89d06b46fab4741f562998bf5 = $(`<div id="html_bf301ac89d06b46fab4741f562998bf5" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:D6:9E:7F <br> Channel: 40</div>`)[0];
+                popup_10fdd685bc6ec371de9f796ce69228c7.setContent(html_bf301ac89d06b46fab4741f562998bf5);
+            
+        
+
+        marker_91c3e7920f8a9235cc59bbbcf27d65a0.bindPopup(popup_10fdd685bc6ec371de9f796ce69228c7)
+        ;
+
+        
+    
+    
+            var marker_2aafd3124bae2cf88df5f72337f9ecdd = L.marker(
+                [56.85401712039747, 14.83284847012588],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_a083e79558d5a46bcb8775de9a60e988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2aafd3124bae2cf88df5f72337f9ecdd.setIcon(icon_a083e79558d5a46bcb8775de9a60e988);
+        
+    
+        var popup_e37251571badfd6e47e2222376ad7bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d68225e332b51b0a106d4c3e390e271f = $(`<div id="html_d68225e332b51b0a106d4c3e390e271f" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9B:B7:20 <br> Channel: 1</div>`)[0];
+                popup_e37251571badfd6e47e2222376ad7bc5.setContent(html_d68225e332b51b0a106d4c3e390e271f);
+            
+        
+
+        marker_2aafd3124bae2cf88df5f72337f9ecdd.bindPopup(popup_e37251571badfd6e47e2222376ad7bc5)
+        ;
+
+        
+    
+    
+            var marker_225c7f94e8aa92d9afb1c640ea54ada8 = L.marker(
+                [56.854010490137014, 14.832883027195933],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2512ccf6227557a33802d5fc611aa336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_225c7f94e8aa92d9afb1c640ea54ada8.setIcon(icon_2512ccf6227557a33802d5fc611aa336);
+        
+    
+        var popup_de2655b7484a6084a16f86fcba32d9b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e0704004da660616d5fb4264ad7d9d2 = $(`<div id="html_1e0704004da660616d5fb4264ad7d9d2" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9B:B7:2F <br> Channel: 60</div>`)[0];
+                popup_de2655b7484a6084a16f86fcba32d9b0.setContent(html_1e0704004da660616d5fb4264ad7d9d2);
+            
+        
+
+        marker_225c7f94e8aa92d9afb1c640ea54ada8.bindPopup(popup_de2655b7484a6084a16f86fcba32d9b0)
+        ;
+
+        
+    
+    
+            var marker_c1989b7687e43509ad80f45d3601f9ef = L.marker(
+                [56.853890782430106, 14.833425567593686],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_81e95ccd9c547da39d1e601f53a035c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c1989b7687e43509ad80f45d3601f9ef.setIcon(icon_81e95ccd9c547da39d1e601f53a035c0);
+        
+    
+        var popup_61b930b12f8243a67c5d4a3ff9a8b376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_860ec98d5ddffa82b5a4f53dd5dd02da = $(`<div id="html_860ec98d5ddffa82b5a4f53dd5dd02da" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:A1:54:6F <br> Channel: 140</div>`)[0];
+                popup_61b930b12f8243a67c5d4a3ff9a8b376.setContent(html_860ec98d5ddffa82b5a4f53dd5dd02da);
+            
+        
+
+        marker_c1989b7687e43509ad80f45d3601f9ef.bindPopup(popup_61b930b12f8243a67c5d4a3ff9a8b376)
+        ;
+
+        
+    
+    
+            var marker_950d0d456819c310ea41438f9616c603 = L.marker(
+                [56.8539667765093, 14.833388173180383],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_e0604c2bf96b0a75aa6b78a9c0874a5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_950d0d456819c310ea41438f9616c603.setIcon(icon_e0604c2bf96b0a75aa6b78a9c0874a5a);
+        
+    
+        var popup_b29de3ad7f16c71be1eb5387b1ccd97d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_027f49fd2889c27700fb6beec3c310f3 = $(`<div id="html_027f49fd2889c27700fb6beec3c310f3" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:45:0A:5F <br> Channel: 40</div>`)[0];
+                popup_b29de3ad7f16c71be1eb5387b1ccd97d.setContent(html_027f49fd2889c27700fb6beec3c310f3);
+            
+        
+
+        marker_950d0d456819c310ea41438f9616c603.bindPopup(popup_b29de3ad7f16c71be1eb5387b1ccd97d)
+        ;
+
+        
+    
+    
+            var marker_ad199b445897682326d31b64f73e3131 = L.marker(
+                [56.853940300192775, 14.833323783108167],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_1cec5f6d3c13b4391ea5df61ab23fc2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ad199b445897682326d31b64f73e3131.setIcon(icon_1cec5f6d3c13b4391ea5df61ab23fc2a);
+        
+    
+        var popup_195391da8e27435d0a165d6b9975216c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48ad6c02be62b162175b7c4b112b5522 = $(`<div id="html_48ad6c02be62b162175b7c4b112b5522" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:F0:A2 <br> Channel: 1</div>`)[0];
+                popup_195391da8e27435d0a165d6b9975216c.setContent(html_48ad6c02be62b162175b7c4b112b5522);
+            
+        
+
+        marker_ad199b445897682326d31b64f73e3131.bindPopup(popup_195391da8e27435d0a165d6b9975216c)
+        ;
+
+        
+    
+    
+            var marker_cacf3660d08e0ff5a170c3c9944659a4 = L.marker(
+                [56.85401174299774, 14.832844893847199],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_67ecb343333e6d599558773f87fc8e72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cacf3660d08e0ff5a170c3c9944659a4.setIcon(icon_67ecb343333e6d599558773f87fc8e72);
+        
+    
+        var popup_58c8f1eaa3e17010016551ccd106b8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0738f7d6577463b725ff5e00fb58565c = $(`<div id="html_0738f7d6577463b725ff5e00fb58565c" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9B:B7:2D <br> Channel: 60</div>`)[0];
+                popup_58c8f1eaa3e17010016551ccd106b8d4.setContent(html_0738f7d6577463b725ff5e00fb58565c);
+            
+        
+
+        marker_cacf3660d08e0ff5a170c3c9944659a4.bindPopup(popup_58c8f1eaa3e17010016551ccd106b8d4)
+        ;
+
+        
+    
+    
+            var marker_47cced7975a7a118fadc069c49d3747c = L.marker(
+                [56.853896521890974, 14.833384962468747],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_70b00778d3ccd87f6caba6d94642fba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_47cced7975a7a118fadc069c49d3747c.setIcon(icon_70b00778d3ccd87f6caba6d94642fba5);
+        
+    
+        var popup_2fa7397b1e52dda030db1ed0bf6d0e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f3296ac3d30411f2487bda109003835 = $(`<div id="html_3f3296ac3d30411f2487bda109003835" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 84:B8:02:88:9D:4D <br> Channel: 64</div>`)[0];
+                popup_2fa7397b1e52dda030db1ed0bf6d0e0b.setContent(html_3f3296ac3d30411f2487bda109003835);
+            
+        
+
+        marker_47cced7975a7a118fadc069c49d3747c.bindPopup(popup_2fa7397b1e52dda030db1ed0bf6d0e0b)
+        ;
+
+        
+    
+    
+            var marker_f3ed112641f2cc54ce2f077efbe45115 = L.marker(
+                [56.853900088274976, 14.833379983901978],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_0b46b1e65ab9c782d2edc35a7f6c8a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f3ed112641f2cc54ce2f077efbe45115.setIcon(icon_0b46b1e65ab9c782d2edc35a7f6c8a5b);
+        
+    
+        var popup_6afab7400ab9b379d9fb84365fa81da7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4f1f9f488cd01c846decdcfffb1a8de = $(`<div id="html_c4f1f9f488cd01c846decdcfffb1a8de" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 84:B8:02:88:9D:4F <br> Channel: 64</div>`)[0];
+                popup_6afab7400ab9b379d9fb84365fa81da7.setContent(html_c4f1f9f488cd01c846decdcfffb1a8de);
+            
+        
+
+        marker_f3ed112641f2cc54ce2f077efbe45115.bindPopup(popup_6afab7400ab9b379d9fb84365fa81da7)
+        ;
+
+        
+    
+    
+            var marker_91bb4683d321d8cef6bf143bc8b82872 = L.marker(
+                [56.85402994787989, 14.83332446390806],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_c0e8f0b1a233946bb8e0cd10b06fd18b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_91bb4683d321d8cef6bf143bc8b82872.setIcon(icon_c0e8f0b1a233946bb8e0cd10b06fd18b);
+        
+    
+        var popup_42bd8fec5562b3aa7a4191dc203f5cbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f29ac4847c3bc759947f5e4a65c2e27 = $(`<div id="html_7f29ac4847c3bc759947f5e4a65c2e27" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 58:97:BD:66:A8:4D <br> Channel: 48</div>`)[0];
+                popup_42bd8fec5562b3aa7a4191dc203f5cbe.setContent(html_7f29ac4847c3bc759947f5e4a65c2e27);
+            
+        
+
+        marker_91bb4683d321d8cef6bf143bc8b82872.bindPopup(popup_42bd8fec5562b3aa7a4191dc203f5cbe)
+        ;
+
+        
+    
+    
+            var marker_e1130d6ed022d5ab00b151c5ba4886d1 = L.marker(
+                [56.85402571667585, 14.833340056312199],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_b4e2de1c8ec66ab7409670585f0eb3ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1130d6ed022d5ab00b151c5ba4886d1.setIcon(icon_b4e2de1c8ec66ab7409670585f0eb3ef);
+        
+    
+        var popup_2eaf6f6c842fa9c872ff60dd6e9f8a68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad2215bb08386e88575862b541882c46 = $(`<div id="html_ad2215bb08386e88575862b541882c46" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 58:97:BD:66:A8:4F <br> Channel: 48</div>`)[0];
+                popup_2eaf6f6c842fa9c872ff60dd6e9f8a68.setContent(html_ad2215bb08386e88575862b541882c46);
+            
+        
+
+        marker_e1130d6ed022d5ab00b151c5ba4886d1.bindPopup(popup_2eaf6f6c842fa9c872ff60dd6e9f8a68)
+        ;
+
+        
+    
+    
+            var marker_ef7fd6bbe58fae1aba34df8714436a47 = L.marker(
+                [56.85390182967059, 14.833393237053953],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_65c3ca6b1751294449a444ad5a9ece16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ef7fd6bbe58fae1aba34df8714436a47.setIcon(icon_65c3ca6b1751294449a444ad5a9ece16);
+        
+    
+        var popup_b056e80c01e802989016bbe9e6e617f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd66017c494b5c7da8866057fac36f31 = $(`<div id="html_cd66017c494b5c7da8866057fac36f31" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:F8:B2:8F <br> Channel: 40</div>`)[0];
+                popup_b056e80c01e802989016bbe9e6e617f4.setContent(html_cd66017c494b5c7da8866057fac36f31);
+            
+        
+
+        marker_ef7fd6bbe58fae1aba34df8714436a47.bindPopup(popup_b056e80c01e802989016bbe9e6e617f4)
+        ;
+
+        
+    
+    
+            var marker_d0b68954a55c23c6614a3406d0547c3d = L.marker(
+                [56.85388460772871, 14.833476352241805],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d65a46a586dbc9093d37c3038f1b3347 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d0b68954a55c23c6614a3406d0547c3d.setIcon(icon_d65a46a586dbc9093d37c3038f1b3347);
+        
+    
+        var popup_edce6eaff66fafbe9c5e4b676f0264a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa65c18528d763aa6e5cf18c550a2a53 = $(`<div id="html_aa65c18528d763aa6e5cf18c550a2a53" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:54:62 <br> Channel: 1</div>`)[0];
+                popup_edce6eaff66fafbe9c5e4b676f0264a0.setContent(html_aa65c18528d763aa6e5cf18c550a2a53);
+            
+        
+
+        marker_d0b68954a55c23c6614a3406d0547c3d.bindPopup(popup_edce6eaff66fafbe9c5e4b676f0264a0)
+        ;
+
+        
+    
+    
+            var marker_63d2d35f7cb138f53c2990f0b4adf7d8 = L.marker(
+                [56.85387721820869, 14.833476524296644],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2543ebf2e49a02aa6244d4eb4e2a6f15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_63d2d35f7cb138f53c2990f0b4adf7d8.setIcon(icon_2543ebf2e49a02aa6244d4eb4e2a6f15);
+        
+    
+        var popup_2408ffc3635996ea56d0752036cd90f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3636cd6ea644a4eba20d53496674c10a = $(`<div id="html_3636cd6ea644a4eba20d53496674c10a" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 84:B8:02:88:9D:40 <br> Channel: 6</div>`)[0];
+                popup_2408ffc3635996ea56d0752036cd90f9.setContent(html_3636cd6ea644a4eba20d53496674c10a);
+            
+        
+
+        marker_63d2d35f7cb138f53c2990f0b4adf7d8.bindPopup(popup_2408ffc3635996ea56d0752036cd90f9)
+        ;
+
+        
+    
+    
+            var marker_6094e577597b2cc3180acc3d6c3eb6d8 = L.marker(
+                [56.85388139976723, 14.833471157298183],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7072ae3ba6928067ba89d5a4f6ec0921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6094e577597b2cc3180acc3d6c3eb6d8.setIcon(icon_7072ae3ba6928067ba89d5a4f6ec0921);
+        
+    
+        var popup_6874f6717444a0b8692d8274cd723878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2508dc7193d72fd7e7fd9fb4aa057893 = $(`<div id="html_2508dc7193d72fd7e7fd9fb4aa057893" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 84:B8:02:88:9D:42 <br> Channel: 6</div>`)[0];
+                popup_6874f6717444a0b8692d8274cd723878.setContent(html_2508dc7193d72fd7e7fd9fb4aa057893);
+            
+        
+
+        marker_6094e577597b2cc3180acc3d6c3eb6d8.bindPopup(popup_6874f6717444a0b8692d8274cd723878)
+        ;
+
+        
+    
+    
+            var marker_9a3938c0d77722c3d1f2a201ae6dd831 = L.marker(
+                [56.85388950422816, 14.833437870063726],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_268254bd1593ab51c2af4ce415d2582c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9a3938c0d77722c3d1f2a201ae6dd831.setIcon(icon_268254bd1593ab51c2af4ce415d2582c);
+        
+    
+        var popup_c4d1f6db27208434d18fdae863d8f8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf607cb0a72204b45292dd23ea480f18 = $(`<div id="html_bf607cb0a72204b45292dd23ea480f18" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:A1:54:6D <br> Channel: 140</div>`)[0];
+                popup_c4d1f6db27208434d18fdae863d8f8a8.setContent(html_bf607cb0a72204b45292dd23ea480f18);
+            
+        
+
+        marker_9a3938c0d77722c3d1f2a201ae6dd831.bindPopup(popup_c4d1f6db27208434d18fdae863d8f8a8)
+        ;
+
+        
+    
+    
+            var marker_8849a92c8fe7476353238e588124173c = L.marker(
+                [56.85397591088037, 14.833390382845277],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_fb28e047434b728d8f409f53526da817 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8849a92c8fe7476353238e588124173c.setIcon(icon_fb28e047434b728d8f409f53526da817);
+        
+    
+        var popup_4ff6ff367493e76e7f42f607e2bcfa94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e3bb9f36097fbe0db1760af454880c2 = $(`<div id="html_7e3bb9f36097fbe0db1760af454880c2" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:45:0A:5D <br> Channel: 40</div>`)[0];
+                popup_4ff6ff367493e76e7f42f607e2bcfa94.setContent(html_7e3bb9f36097fbe0db1760af454880c2);
+            
+        
+
+        marker_8849a92c8fe7476353238e588124173c.bindPopup(popup_4ff6ff367493e76e7f42f607e2bcfa94)
+        ;
+
+        
+    
+    
+            var marker_83f59d57882cabbe711e14ccd9f0565c = L.marker(
+                [56.85405583301822, 14.83294345438481],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_105e3ba16bf7878fd9d1b5e2f4f914ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_83f59d57882cabbe711e14ccd9f0565c.setIcon(icon_105e3ba16bf7878fd9d1b5e2f4f914ca);
+        
+    
+        var popup_1312e9720df6ce5537c340859af56fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6678378b77e283f5d1e397f7f6ac2c7 = $(`<div id="html_d6678378b77e283f5d1e397f7f6ac2c7" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:F8:B0:F0 <br> Channel: 1</div>`)[0];
+                popup_1312e9720df6ce5537c340859af56fd9.setContent(html_d6678378b77e283f5d1e397f7f6ac2c7);
+            
+        
+
+        marker_83f59d57882cabbe711e14ccd9f0565c.bindPopup(popup_1312e9720df6ce5537c340859af56fd9)
+        ;
+
+        
+    
+    
+            var marker_15e25e1c83927f28a31324630796c5d1 = L.marker(
+                [56.8540150951643, 14.832974310432173],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_0aff718a1307389ff7a6b681a31760d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_15e25e1c83927f28a31324630796c5d1.setIcon(icon_0aff718a1307389ff7a6b681a31760d4);
+        
+    
+        var popup_e828916e34964b4d793a6115dfd1f364 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1975139a5bd5f5a29394432b8e8946cb = $(`<div id="html_1975139a5bd5f5a29394432b8e8946cb" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:F8:B0:F2 <br> Channel: 1</div>`)[0];
+                popup_e828916e34964b4d793a6115dfd1f364.setContent(html_1975139a5bd5f5a29394432b8e8946cb);
+            
+        
+
+        marker_15e25e1c83927f28a31324630796c5d1.bindPopup(popup_e828916e34964b4d793a6115dfd1f364)
+        ;
+
+        
+    
+    
+            var marker_b3b2722f36572fc98b6cef64048156ae = L.marker(
+                [56.85389074630431, 14.833457645881607],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7a4370c43b77ff1078607e5fe35146ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b3b2722f36572fc98b6cef64048156ae.setIcon(icon_7a4370c43b77ff1078607e5fe35146ab);
+        
+    
+        var popup_2a12bb4d1a07d963817953c439740576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c0bfb3499a1478eca2908d6f5e9f08 = $(`<div id="html_40c0bfb3499a1478eca2908d6f5e9f08" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:F8:B2:80 <br> Channel: 6</div>`)[0];
+                popup_2a12bb4d1a07d963817953c439740576.setContent(html_40c0bfb3499a1478eca2908d6f5e9f08);
+            
+        
+
+        marker_b3b2722f36572fc98b6cef64048156ae.bindPopup(popup_2a12bb4d1a07d963817953c439740576)
+        ;
+
+        
+    
+    
+            var marker_2c3562baf34b223e11acad32d6a7dd17 = L.marker(
+                [56.85389211316475, 14.83344932485904],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_939939943b20c7227022ee9d26300f10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c3562baf34b223e11acad32d6a7dd17.setIcon(icon_939939943b20c7227022ee9d26300f10);
+        
+    
+        var popup_28f1f7aba35483381fc3939d9bee1dff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6244af4e842851558e07db3e9e993c2a = $(`<div id="html_6244af4e842851558e07db3e9e993c2a" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:F8:B2:82 <br> Channel: 6</div>`)[0];
+                popup_28f1f7aba35483381fc3939d9bee1dff.setContent(html_6244af4e842851558e07db3e9e993c2a);
+            
+        
+
+        marker_2c3562baf34b223e11acad32d6a7dd17.bindPopup(popup_28f1f7aba35483381fc3939d9bee1dff)
+        ;
+
+        
+    
+    
+            var marker_77c3ff26cd0e3b5365bf4d6cb718ae73 = L.marker(
+                [56.854052560066904, 14.833281520229058],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_361be3247e602e3a0bd0f2fa6dca98ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_77c3ff26cd0e3b5365bf4d6cb718ae73.setIcon(icon_361be3247e602e3a0bd0f2fa6dca98ed);
+        
+    
+        var popup_9c9a446a7eeb41f2442b64ab5e55e0be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc22306652fac4bf67764b2937bda43a = $(`<div id="html_fc22306652fac4bf67764b2937bda43a" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:45:0A:50 <br> Channel: 1</div>`)[0];
+                popup_9c9a446a7eeb41f2442b64ab5e55e0be.setContent(html_fc22306652fac4bf67764b2937bda43a);
+            
+        
+
+        marker_77c3ff26cd0e3b5365bf4d6cb718ae73.bindPopup(popup_9c9a446a7eeb41f2442b64ab5e55e0be)
+        ;
+
+        
+    
+    
+            var marker_9f6714d29e04215a424002a55c8e0504 = L.marker(
+                [56.85407635010657, 14.833283179782724],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ae5354fbc4ef35b157dca4d7791622d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9f6714d29e04215a424002a55c8e0504.setIcon(icon_ae5354fbc4ef35b157dca4d7791622d9);
+        
+    
+        var popup_9cc5da46f3730f891e1bc00751c68b9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e2e1226edb6567919b5a35d9ee68d4 = $(`<div id="html_c1e2e1226edb6567919b5a35d9ee68d4" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:45:0A:52 <br> Channel: 1</div>`)[0];
+                popup_9cc5da46f3730f891e1bc00751c68b9a.setContent(html_c1e2e1226edb6567919b5a35d9ee68d4);
+            
+        
+
+        marker_9f6714d29e04215a424002a55c8e0504.bindPopup(popup_9cc5da46f3730f891e1bc00751c68b9a)
+        ;
+
+        
+    
+    
+            var marker_365420f71b943a2c6e4bd9bfc8721a07 = L.marker(
+                [56.85386222610963, 14.833533214405179],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_c6210ad488b154a7f3f8ce4484bf3f59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_365420f71b943a2c6e4bd9bfc8721a07.setIcon(icon_c6210ad488b154a7f3f8ce4484bf3f59);
+        
+    
+        var popup_365dd6d7711d359e4c11696715098c00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca07d4e91625406ab355cb06146456e9 = $(`<div id="html_ca07d4e91625406ab355cb06146456e9" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 70:69:5A:32:D0:AF <br> Channel: 64</div>`)[0];
+                popup_365dd6d7711d359e4c11696715098c00.setContent(html_ca07d4e91625406ab355cb06146456e9);
+            
+        
+
+        marker_365420f71b943a2c6e4bd9bfc8721a07.bindPopup(popup_365dd6d7711d359e4c11696715098c00)
+        ;
+
+        
+    
+    
+            var marker_7cb73d0cbf798416cadbf48ed964de8e = L.marker(
+                [56.854060900798046, 14.832929581403738],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_e05759c6c090d65971e4ea81947e29c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7cb73d0cbf798416cadbf48ed964de8e.setIcon(icon_e05759c6c090d65971e4ea81947e29c3);
+        
+    
+        var popup_857cb9dc71b1d037d09751802c7afc24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1afbb66ba5f4f86c9da3f13f9b3b663 = $(`<div id="html_a1afbb66ba5f4f86c9da3f13f9b3b663" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:F8:B0:FD <br> Channel: 52</div>`)[0];
+                popup_857cb9dc71b1d037d09751802c7afc24.setContent(html_a1afbb66ba5f4f86c9da3f13f9b3b663);
+            
+        
+
+        marker_7cb73d0cbf798416cadbf48ed964de8e.bindPopup(popup_857cb9dc71b1d037d09751802c7afc24)
+        ;
+
+        
+    
+    
+            var marker_75be06db05857d2427ecd7511491a67e = L.marker(
+                [56.85409310794385, 14.832920233408613],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_9684e9cb04b21db8b76065567c59f25c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75be06db05857d2427ecd7511491a67e.setIcon(icon_9684e9cb04b21db8b76065567c59f25c);
+        
+    
+        var popup_04ecb7dc180a76785b6f94bbbbd635ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f662fc64d40e3d870238957fe1a66834 = $(`<div id="html_f662fc64d40e3d870238957fe1a66834" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:F0:A0 <br> Channel: 1</div>`)[0];
+                popup_04ecb7dc180a76785b6f94bbbbd635ab.setContent(html_f662fc64d40e3d870238957fe1a66834);
+            
+        
+
+        marker_75be06db05857d2427ecd7511491a67e.bindPopup(popup_04ecb7dc180a76785b6f94bbbbd635ab)
+        ;
+
+        
+    
+    
+            var marker_c83aebb45cd85e5f379f0820a671e75c = L.marker(
+                [56.85402523615289, 14.833338384713056],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_51a4f93d1ea858739df98ea53cd05206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c83aebb45cd85e5f379f0820a671e75c.setIcon(icon_51a4f93d1ea858739df98ea53cd05206);
+        
+    
+        var popup_0f3dcdb8203e68e8272aa7a136879cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb2d37327ed931340862d882da6837b = $(`<div id="html_5cb2d37327ed931340862d882da6837b" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 58:97:BD:66:A8:40 <br> Channel: 11</div>`)[0];
+                popup_0f3dcdb8203e68e8272aa7a136879cc6.setContent(html_5cb2d37327ed931340862d882da6837b);
+            
+        
+
+        marker_c83aebb45cd85e5f379f0820a671e75c.bindPopup(popup_0f3dcdb8203e68e8272aa7a136879cc6)
+        ;
+
+        
+    
+    
+            var marker_34a2e7df97c974d300787dd7c8c01d48 = L.marker(
+                [56.85385834029156, 14.833550477666515],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_db109df9d78dcc620164afb3a427c97f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_34a2e7df97c974d300787dd7c8c01d48.setIcon(icon_db109df9d78dcc620164afb3a427c97f);
+        
+    
+        var popup_8543b9d76fdadce41e2f98222c61692d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bce26a8c9c205494b86727e11c2649a8 = $(`<div id="html_bce26a8c9c205494b86727e11c2649a8" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 70:69:5A:32:D0:AD <br> Channel: 64</div>`)[0];
+                popup_8543b9d76fdadce41e2f98222c61692d.setContent(html_bce26a8c9c205494b86727e11c2649a8);
+            
+        
+
+        marker_34a2e7df97c974d300787dd7c8c01d48.bindPopup(popup_8543b9d76fdadce41e2f98222c61692d)
+        ;
+
+        
+    
+    
+            var marker_891a071c60095ce900a80c191074bf56 = L.marker(
+                [56.854048184445915, 14.832537565380338],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_1be0540a9cba80ac0354c1c35f48d659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_891a071c60095ce900a80c191074bf56.setIcon(icon_1be0540a9cba80ac0354c1c35f48d659);
+        
+    
+        var popup_214bc71d16729a0f057ae3498f1446df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_023311da826e9801b88958722de287ea = $(`<div id="html_023311da826e9801b88958722de287ea" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: D0:EC:35:68:6E:00 <br> Channel: 6</div>`)[0];
+                popup_214bc71d16729a0f057ae3498f1446df.setContent(html_023311da826e9801b88958722de287ea);
+            
+        
+
+        marker_891a071c60095ce900a80c191074bf56.bindPopup(popup_214bc71d16729a0f057ae3498f1446df)
+        ;
+
+        
+    
+    
+            var marker_56e905b397a8e23b2af9cc6ba87893ee = L.marker(
+                [56.854048184445915, 14.832537565380338],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_8badbce6015eb018838f713aba5b4fb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_56e905b397a8e23b2af9cc6ba87893ee.setIcon(icon_8badbce6015eb018838f713aba5b4fb1);
+        
+    
+        var popup_7c29f843236a0e1e12201c986e908c56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4214d57bbbb1f2b464539beb2f8d930 = $(`<div id="html_d4214d57bbbb1f2b464539beb2f8d930" style="width: 100.0%; height: 100.0%;">SSID: LNU-Studentkaren <br> MAC: D0:EC:35:68:6E:01 <br> Channel: 6</div>`)[0];
+                popup_7c29f843236a0e1e12201c986e908c56.setContent(html_d4214d57bbbb1f2b464539beb2f8d930);
+            
+        
+
+        marker_56e905b397a8e23b2af9cc6ba87893ee.bindPopup(popup_7c29f843236a0e1e12201c986e908c56)
+        ;
+
+        
+    
+    
+            var marker_af43b510eb8dea33b4c0b6489d27055d = L.marker(
+                [56.85402871324906, 14.832546881267001],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_32ed5a192d1794b048f871460fb0a7be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_af43b510eb8dea33b4c0b6489d27055d.setIcon(icon_32ed5a192d1794b048f871460fb0a7be);
+        
+    
+        var popup_40b4887cb2741ca8c5149abb45fbb2fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5772d76989763e00fd5eac55afea66bb = $(`<div id="html_5772d76989763e00fd5eac55afea66bb" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: D0:EC:35:68:6E:02 <br> Channel: 6</div>`)[0];
+                popup_40b4887cb2741ca8c5149abb45fbb2fe.setContent(html_5772d76989763e00fd5eac55afea66bb);
+            
+        
+
+        marker_af43b510eb8dea33b4c0b6489d27055d.bindPopup(popup_40b4887cb2741ca8c5149abb45fbb2fe)
+        ;
+
+        
+    
+    
+            var marker_53795d3377623758f49153cd2efd49da = L.marker(
+                [56.85402871324906, 14.832546881267001],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_544568ee228cc39c24f6e84b0ea6dad2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_53795d3377623758f49153cd2efd49da.setIcon(icon_544568ee228cc39c24f6e84b0ea6dad2);
+        
+    
+        var popup_061bec8beeb1e4836d9195dd8c0a424c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9628fed8d25bbadaae831538e3868de = $(`<div id="html_b9628fed8d25bbadaae831538e3868de" style="width: 100.0%; height: 100.0%;">SSID: edu_Test <br> MAC: D0:EC:35:68:6E:03 <br> Channel: 6</div>`)[0];
+                popup_061bec8beeb1e4836d9195dd8c0a424c.setContent(html_b9628fed8d25bbadaae831538e3868de);
+            
+        
+
+        marker_53795d3377623758f49153cd2efd49da.bindPopup(popup_061bec8beeb1e4836d9195dd8c0a424c)
+        ;
+
+        
+    
+    
+            var marker_b48f21bf9ad718222880c4b13349a30a = L.marker(
+                [56.85419935784182, 14.832613936492368],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4a7bee6c7602d93171f084ca543a71ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b48f21bf9ad718222880c4b13349a30a.setIcon(icon_4a7bee6c7602d93171f084ca543a71ce);
+        
+    
+        var popup_ccefdd1842ecf556475dc151f3d224e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f53b43ef2622dcf3d1bb2c2de90da379 = $(`<div id="html_f53b43ef2622dcf3d1bb2c2de90da379" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9B:94:40 <br> Channel: 11</div>`)[0];
+                popup_ccefdd1842ecf556475dc151f3d224e8.setContent(html_f53b43ef2622dcf3d1bb2c2de90da379);
+            
+        
+
+        marker_b48f21bf9ad718222880c4b13349a30a.bindPopup(popup_ccefdd1842ecf556475dc151f3d224e8)
+        ;
+
+        
+    
+    
+            var marker_dbef9bf8c7ffb310e72bc808d6094060 = L.marker(
+                [56.85419935784182, 14.832613936492368],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_edb28fdeda7457af6e56abeb7908e03b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dbef9bf8c7ffb310e72bc808d6094060.setIcon(icon_edb28fdeda7457af6e56abeb7908e03b);
+        
+    
+        var popup_c1e14577627b46dcd9144ca95ed6a18c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a16ebfa2f2b2b81e7d9ed1a92e54f3cc = $(`<div id="html_a16ebfa2f2b2b81e7d9ed1a92e54f3cc" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9B:94:42 <br> Channel: 11</div>`)[0];
+                popup_c1e14577627b46dcd9144ca95ed6a18c.setContent(html_a16ebfa2f2b2b81e7d9ed1a92e54f3cc);
+            
+        
+
+        marker_dbef9bf8c7ffb310e72bc808d6094060.bindPopup(popup_c1e14577627b46dcd9144ca95ed6a18c)
+        ;
+
+        
+    
+    
+            var marker_a26b0fa29299e3a2f32b801fb80982d4 = L.marker(
+                [56.8541628510808, 14.832524657249449],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7655cd068f0ee85f638813da79723459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a26b0fa29299e3a2f32b801fb80982d4.setIcon(icon_7655cd068f0ee85f638813da79723459);
+        
+    
+        var popup_62d88035dcbe00ae06291674596d65c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db400891f89655db8f23616c54a630b3 = $(`<div id="html_db400891f89655db8f23616c54a630b3" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:53:CC:52 <br> Channel: 11</div>`)[0];
+                popup_62d88035dcbe00ae06291674596d65c9.setContent(html_db400891f89655db8f23616c54a630b3);
+            
+        
+
+        marker_a26b0fa29299e3a2f32b801fb80982d4.bindPopup(popup_62d88035dcbe00ae06291674596d65c9)
+        ;
+
+        
+    
+    
+            var marker_67d6acf540f1d6c5fc8ace3a539a7379 = L.marker(
+                [56.85412753775211, 14.83303106536991],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_fae9d4a8adb9b1981cc8443d33ed4779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_67d6acf540f1d6c5fc8ace3a539a7379.setIcon(icon_fae9d4a8adb9b1981cc8443d33ed4779);
+        
+    
+        var popup_e4d6c731842a94d3c62296232aac6980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a873cbddfce01d56ee7932a1a8e125 = $(`<div id="html_a1a873cbddfce01d56ee7932a1a8e125" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:8E:52:8D <br> Channel: 108</div>`)[0];
+                popup_e4d6c731842a94d3c62296232aac6980.setContent(html_a1a873cbddfce01d56ee7932a1a8e125);
+            
+        
+
+        marker_67d6acf540f1d6c5fc8ace3a539a7379.bindPopup(popup_e4d6c731842a94d3c62296232aac6980)
+        ;
+
+        
+    
+    
+            var marker_94c10390c747bf1acd61b06653ce61f3 = L.marker(
+                [56.85412753775211, 14.83303106536991],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_335aa5a3e327c8afd0def53ecb27b73f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_94c10390c747bf1acd61b06653ce61f3.setIcon(icon_335aa5a3e327c8afd0def53ecb27b73f);
+        
+    
+        var popup_510d82ff88ef81dc6cce66a0ed5b9d5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cebe2c2eac4f37637470461f6b08c7b0 = $(`<div id="html_cebe2c2eac4f37637470461f6b08c7b0" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:8E:52:8F <br> Channel: 108</div>`)[0];
+                popup_510d82ff88ef81dc6cce66a0ed5b9d5b.setContent(html_cebe2c2eac4f37637470461f6b08c7b0);
+            
+        
+
+        marker_94c10390c747bf1acd61b06653ce61f3.bindPopup(popup_510d82ff88ef81dc6cce66a0ed5b9d5b)
+        ;
+
+        
+    
+    
+            var marker_f88cd08d02492a124d59b1f8d36fb4cb = L.marker(
+                [56.8541628510808, 14.832524657249449],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_5e1e46b844dcc907d0816a11d9febb73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f88cd08d02492a124d59b1f8d36fb4cb.setIcon(icon_5e1e46b844dcc907d0816a11d9febb73);
+        
+    
+        var popup_bd6714482f200dc56a5edb1fee24126e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72988f34560ed414282b4c3c5c1234c0 = $(`<div id="html_72988f34560ed414282b4c3c5c1234c0" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:AE:52:6F <br> Channel: 64</div>`)[0];
+                popup_bd6714482f200dc56a5edb1fee24126e.setContent(html_72988f34560ed414282b4c3c5c1234c0);
+            
+        
+
+        marker_f88cd08d02492a124d59b1f8d36fb4cb.bindPopup(popup_bd6714482f200dc56a5edb1fee24126e)
+        ;
+
+        
+    
+    
+            var marker_a5947c37ce4e8d8892535b693b3b9c59 = L.marker(
+                [56.854128277805756, 14.833044643337665],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4f634700164134c13c6c3674428ef20d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a5947c37ce4e8d8892535b693b3b9c59.setIcon(icon_4f634700164134c13c6c3674428ef20d);
+        
+    
+        var popup_8ea91b82461c8cf2d452860d359d95e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c76ee5727db316d511b97a297c0eb733 = $(`<div id="html_c76ee5727db316d511b97a297c0eb733" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:8E:52:82 <br> Channel: 1</div>`)[0];
+                popup_8ea91b82461c8cf2d452860d359d95e9.setContent(html_c76ee5727db316d511b97a297c0eb733);
+            
+        
+
+        marker_a5947c37ce4e8d8892535b693b3b9c59.bindPopup(popup_8ea91b82461c8cf2d452860d359d95e9)
+        ;
+
+        
+    
+    
+            var marker_1d955da26ec8187065f296d1ae850a54 = L.marker(
+                [56.854210440822655, 14.83261638879774],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2546be403742589c426c3ef8ccedf7ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1d955da26ec8187065f296d1ae850a54.setIcon(icon_2546be403742589c426c3ef8ccedf7ca);
+        
+    
+        var popup_1a29657da8f5731b8b5ba22bc3d89ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_622947af3d73350acc6c3d865df5da55 = $(`<div id="html_622947af3d73350acc6c3d865df5da55" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9B:94:4D <br> Channel: 132</div>`)[0];
+                popup_1a29657da8f5731b8b5ba22bc3d89ce3.setContent(html_622947af3d73350acc6c3d865df5da55);
+            
+        
+
+        marker_1d955da26ec8187065f296d1ae850a54.bindPopup(popup_1a29657da8f5731b8b5ba22bc3d89ce3)
+        ;
+
+        
+    
+    
+            var marker_6ac9db88267bf3f2cedb86093fa9b159 = L.marker(
+                [56.854210440822655, 14.83261638879774],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_78bfaec35260acff169fdea56eec1933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6ac9db88267bf3f2cedb86093fa9b159.setIcon(icon_78bfaec35260acff169fdea56eec1933);
+        
+    
+        var popup_31550160d45e34653c0e45b64d0feec4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8379e93249e94e0c18613b5e6fa89e57 = $(`<div id="html_8379e93249e94e0c18613b5e6fa89e57" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9B:94:4F <br> Channel: 132</div>`)[0];
+                popup_31550160d45e34653c0e45b64d0feec4.setContent(html_8379e93249e94e0c18613b5e6fa89e57);
+            
+        
+
+        marker_6ac9db88267bf3f2cedb86093fa9b159.bindPopup(popup_31550160d45e34653c0e45b64d0feec4)
+        ;
+
+        
+    
+    
+            var marker_d298681d078bd5b4496e535ec0fe5161 = L.marker(
+                [56.854090989654495, 14.832833781838449],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4aa4bffff01a4470a98bf66e20a24dfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d298681d078bd5b4496e535ec0fe5161.setIcon(icon_4aa4bffff01a4470a98bf66e20a24dfa);
+        
+    
+        var popup_1444500c5783ed8ce151dd320ce3b763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb577ac04dd6418c41d7606a7bdc290 = $(`<div id="html_3eb577ac04dd6418c41d7606a7bdc290" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 30:23:03:D9:3E:A0 <br> Channel: 9</div>`)[0];
+                popup_1444500c5783ed8ce151dd320ce3b763.setContent(html_3eb577ac04dd6418c41d7606a7bdc290);
+            
+        
+
+        marker_d298681d078bd5b4496e535ec0fe5161.bindPopup(popup_1444500c5783ed8ce151dd320ce3b763)
+        ;
+
+        
+    
+    
+            var marker_4e624b5524ba98eb8e63ebc6e16914fd = L.marker(
+                [56.85412617648405, 14.833062861646932],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_5ad532bed48ab35b1cacd4352e7795a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e624b5524ba98eb8e63ebc6e16914fd.setIcon(icon_5ad532bed48ab35b1cacd4352e7795a6);
+        
+    
+        var popup_201a9ad4a749bb607f62af684e294142 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1f5201f1428674ca4acefbd3c16a62 = $(`<div id="html_eb1f5201f1428674ca4acefbd3c16a62" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:8E:52:80 <br> Channel: 1</div>`)[0];
+                popup_201a9ad4a749bb607f62af684e294142.setContent(html_eb1f5201f1428674ca4acefbd3c16a62);
+            
+        
+
+        marker_4e624b5524ba98eb8e63ebc6e16914fd.bindPopup(popup_201a9ad4a749bb607f62af684e294142)
+        ;
+
+        
+    
+    
+            var marker_84d5fb77cca9ce33601ae9c57f0d62b5 = L.marker(
+                [56.85423259749884, 14.833110469308771],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_6d4e7fa3ff3ae10da6f801d91e24e360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_84d5fb77cca9ce33601ae9c57f0d62b5.setIcon(icon_6d4e7fa3ff3ae10da6f801d91e24e360);
+        
+    
+        var popup_e0879f59f4ca724340d0eb37290bae21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d27b73a1b772dae489c834f44a38d5d6 = $(`<div id="html_d27b73a1b772dae489c834f44a38d5d6" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:50:CF:60 <br> Channel: 6</div>`)[0];
+                popup_e0879f59f4ca724340d0eb37290bae21.setContent(html_d27b73a1b772dae489c834f44a38d5d6);
+            
+        
+
+        marker_84d5fb77cca9ce33601ae9c57f0d62b5.bindPopup(popup_e0879f59f4ca724340d0eb37290bae21)
+        ;
+
+        
+    
+    
+            var marker_663e4248c068e3b7717d6b23bf858c13 = L.marker(
+                [56.85423259749884, 14.833110469308771],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_8fea494fa9913058d418d001abde462e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_663e4248c068e3b7717d6b23bf858c13.setIcon(icon_8fea494fa9913058d418d001abde462e);
+        
+    
+        var popup_546590a7d850dc0710816714fc971985 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6c41d2ba6e3330d72cf9aa0254600e = $(`<div id="html_7c6c41d2ba6e3330d72cf9aa0254600e" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:50:CF:62 <br> Channel: 6</div>`)[0];
+                popup_546590a7d850dc0710816714fc971985.setContent(html_7c6c41d2ba6e3330d72cf9aa0254600e);
+            
+        
+
+        marker_663e4248c068e3b7717d6b23bf858c13.bindPopup(popup_546590a7d850dc0710816714fc971985)
+        ;
+
+        
+    
+    
+            var marker_26f2ea29675ffe7eb36316f1cbab661d = L.marker(
+                [56.85423259749884, 14.833110469308771],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_10727855a5c7b5e9ebb3157a3f3313d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_26f2ea29675ffe7eb36316f1cbab661d.setIcon(icon_10727855a5c7b5e9ebb3157a3f3313d9);
+        
+    
+        var popup_d908612135d1399d4320276c6ee6cf35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0b98a04fc246f13b9aff4e5bdaf936c = $(`<div id="html_f0b98a04fc246f13b9aff4e5bdaf936c" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:50:CF:6D <br> Channel: 40</div>`)[0];
+                popup_d908612135d1399d4320276c6ee6cf35.setContent(html_f0b98a04fc246f13b9aff4e5bdaf936c);
+            
+        
+
+        marker_26f2ea29675ffe7eb36316f1cbab661d.bindPopup(popup_d908612135d1399d4320276c6ee6cf35)
+        ;
+
+        
+    
+    
+            var marker_5415efd3a7ba7521aa32fd89347a44f3 = L.marker(
+                [56.85412667930309, 14.833077039037436],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_47fa8a6880323711fe8160a4de0f64f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5415efd3a7ba7521aa32fd89347a44f3.setIcon(icon_47fa8a6880323711fe8160a4de0f64f0);
+        
+    
+        var popup_91d4374897c87626a72cc383592d45c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5afb8ac79760a3f4c59961e4d013dfd = $(`<div id="html_f5afb8ac79760a3f4c59961e4d013dfd" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:45:0A:40 <br> Channel: 11</div>`)[0];
+                popup_91d4374897c87626a72cc383592d45c8.setContent(html_f5afb8ac79760a3f4c59961e4d013dfd);
+            
+        
+
+        marker_5415efd3a7ba7521aa32fd89347a44f3.bindPopup(popup_91d4374897c87626a72cc383592d45c8)
+        ;
+
+        
+    
+    
+            var marker_b95dae8ddcb67c7b243e14ae881103f3 = L.marker(
+                [56.85418053166649, 14.833158447274144],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_63434ad87769c5d685a03d5442d709a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b95dae8ddcb67c7b243e14ae881103f3.setIcon(icon_63434ad87769c5d685a03d5442d709a3);
+        
+    
+        var popup_f8ba5da86f9f5eb1c451c97bf33cc035 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad194596fc673099eec481110eb1fa1 = $(`<div id="html_8ad194596fc673099eec481110eb1fa1" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:45:0A:42 <br> Channel: 11</div>`)[0];
+                popup_f8ba5da86f9f5eb1c451c97bf33cc035.setContent(html_8ad194596fc673099eec481110eb1fa1);
+            
+        
+
+        marker_b95dae8ddcb67c7b243e14ae881103f3.bindPopup(popup_f8ba5da86f9f5eb1c451c97bf33cc035)
+        ;
+
+        
+    
+    
+            var marker_4cbd23fe0c7e934fb4e35df4f6bc8bb0 = L.marker(
+                [56.85412613140906, 14.83307621695779],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f5774a7927a3b0f8f1ac7e8fffc5b6b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4cbd23fe0c7e934fb4e35df4f6bc8bb0.setIcon(icon_f5774a7927a3b0f8f1ac7e8fffc5b6b3);
+        
+    
+        var popup_d7ec7a7232aac279ef5de788dccaa278 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cfba6677486881dd9d9d5f5cef2728 = $(`<div id="html_31cfba6677486881dd9d9d5f5cef2728" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 30:23:03:D9:3E:9F <br> Channel: 100</div>`)[0];
+                popup_d7ec7a7232aac279ef5de788dccaa278.setContent(html_31cfba6677486881dd9d9d5f5cef2728);
+            
+        
+
+        marker_4cbd23fe0c7e934fb4e35df4f6bc8bb0.bindPopup(popup_d7ec7a7232aac279ef5de788dccaa278)
+        ;
+
+        
+    
+    
+            var marker_a42216e5d4ab27218c35372bf38172b3 = L.marker(
+                [56.85412667930309, 14.833077039037436],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_71ae8d503da42c19c93bf47590e423ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a42216e5d4ab27218c35372bf38172b3.setIcon(icon_71ae8d503da42c19c93bf47590e423ca);
+        
+    
+        var popup_f0ed9179fc56656928b63b16a9c44395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e7d9cfb7c6d8e2cafe5d1723b914abc = $(`<div id="html_2e7d9cfb7c6d8e2cafe5d1723b914abc" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:45:0A:4D <br> Channel: 64</div>`)[0];
+                popup_f0ed9179fc56656928b63b16a9c44395.setContent(html_2e7d9cfb7c6d8e2cafe5d1723b914abc);
+            
+        
+
+        marker_a42216e5d4ab27218c35372bf38172b3.bindPopup(popup_f0ed9179fc56656928b63b16a9c44395)
+        ;
+
+        
+    
+    
+            var marker_971db93a1516a3fe2280a2ffd9f0d228 = L.marker(
+                [56.85423308846492, 14.833116980687699],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_90f2ac15f58e8a86e65e231a399ad874 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_971db93a1516a3fe2280a2ffd9f0d228.setIcon(icon_90f2ac15f58e8a86e65e231a399ad874);
+        
+    
+        var popup_d4c357d01b12fae7a670fa86fa266ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92ebbb769bd3f08813c316e11c5c44c6 = $(`<div id="html_92ebbb769bd3f08813c316e11c5c44c6" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:50:CF:6F <br> Channel: 40</div>`)[0];
+                popup_d4c357d01b12fae7a670fa86fa266ff5.setContent(html_92ebbb769bd3f08813c316e11c5c44c6);
+            
+        
+
+        marker_971db93a1516a3fe2280a2ffd9f0d228.bindPopup(popup_d4c357d01b12fae7a670fa86fa266ff5)
+        ;
+
+        
+    
+    
+            var marker_953e892924f68a24b653b6e9a3c3b3b7 = L.marker(
+                [56.854137907604745, 14.833072044195672],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_15279e37870bccdb979239b738f489e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_953e892924f68a24b653b6e9a3c3b3b7.setIcon(icon_15279e37870bccdb979239b738f489e7);
+        
+    
+        var popup_284a3bd48f28114bbff74aaa8ffde51f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_851173b764e9b0457e40298f3e36cb89 = $(`<div id="html_851173b764e9b0457e40298f3e36cb89" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:D2:22 <br> Channel: 1</div>`)[0];
+                popup_284a3bd48f28114bbff74aaa8ffde51f.setContent(html_851173b764e9b0457e40298f3e36cb89);
+            
+        
+
+        marker_953e892924f68a24b653b6e9a3c3b3b7.bindPopup(popup_284a3bd48f28114bbff74aaa8ffde51f)
+        ;
+
+        
+    
+    
+            var marker_e9e68c6cc7784a6011f5e748d9bb6b5d = L.marker(
+                [56.85425084430966, 14.833116514365313],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_44d6e61ebd2f1906dc717c966b684515 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e9e68c6cc7784a6011f5e748d9bb6b5d.setIcon(icon_44d6e61ebd2f1906dc717c966b684515);
+        
+    
+        var popup_18807ef117082e171f1c78756d25bfec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f7a600d19a2f7d353d1beb54765c029 = $(`<div id="html_9f7a600d19a2f7d353d1beb54765c029" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:12:7A:40 <br> Channel: 1</div>`)[0];
+                popup_18807ef117082e171f1c78756d25bfec.setContent(html_9f7a600d19a2f7d353d1beb54765c029);
+            
+        
+
+        marker_e9e68c6cc7784a6011f5e748d9bb6b5d.bindPopup(popup_18807ef117082e171f1c78756d25bfec)
+        ;
+
+        
+    
+    
+            var marker_7aef36720bc9288198aecfa8c6306092 = L.marker(
+                [56.85424735531819, 14.83311886027936],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_6a81a16c95777f779d3ef20756b6670a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7aef36720bc9288198aecfa8c6306092.setIcon(icon_6a81a16c95777f779d3ef20756b6670a);
+        
+    
+        var popup_4841d739f81b4e51c03ada0569ae4c07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1a1997ad5b439151e5f79650a98d824 = $(`<div id="html_e1a1997ad5b439151e5f79650a98d824" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:12:7A:42 <br> Channel: 1</div>`)[0];
+                popup_4841d739f81b4e51c03ada0569ae4c07.setContent(html_e1a1997ad5b439151e5f79650a98d824);
+            
+        
+
+        marker_7aef36720bc9288198aecfa8c6306092.bindPopup(popup_4841d739f81b4e51c03ada0569ae4c07)
+        ;
+
+        
+    
+    
+            var marker_48d54b53ab328960b0d0143141306474 = L.marker(
+                [56.85403644209312, 14.83335840116654],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d965415e7f7ad847c224273edc916c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_48d54b53ab328960b0d0143141306474.setIcon(icon_d965415e7f7ad847c224273edc916c7c);
+        
+    
+        var popup_216c55165c5414674c1301ae42f82150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be33b3e0399174bf179a24a9fe28abf3 = $(`<div id="html_be33b3e0399174bf179a24a9fe28abf3" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: E4:AA:5D:12:7A:4D <br> Channel: 132</div>`)[0];
+                popup_216c55165c5414674c1301ae42f82150.setContent(html_be33b3e0399174bf179a24a9fe28abf3);
+            
+        
+
+        marker_48d54b53ab328960b0d0143141306474.bindPopup(popup_216c55165c5414674c1301ae42f82150)
+        ;
+
+        
+    
+    
+            var marker_8e1933f14be3d7e8889e738e8eb4edae = L.marker(
+                [56.85403578656341, 14.833357388976262],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_e10e330b30de34ed11a28b483d2e492a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8e1933f14be3d7e8889e738e8eb4edae.setIcon(icon_e10e330b30de34ed11a28b483d2e492a);
+        
+    
+        var popup_76c4215c82059922fd2bbae742b7aa5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_218d1c29ab5bd408ddd847c4698b0625 = $(`<div id="html_218d1c29ab5bd408ddd847c4698b0625" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:12:7A:4F <br> Channel: 132</div>`)[0];
+                popup_76c4215c82059922fd2bbae742b7aa5d.setContent(html_218d1c29ab5bd408ddd847c4698b0625);
+            
+        
+
+        marker_8e1933f14be3d7e8889e738e8eb4edae.bindPopup(popup_76c4215c82059922fd2bbae742b7aa5d)
+        ;
+
+        
+    
+    
+            var marker_368f9a276082784a6cb265a93f57a45c = L.marker(
+                [56.85412338324285, 14.83309064279585],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4c97eba7ad612adfeb9968f171a12ae2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_368f9a276082784a6cb265a93f57a45c.setIcon(icon_4c97eba7ad612adfeb9968f171a12ae2);
+        
+    
+        var popup_1ffb7451d114e5de98e97e880b61fc76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7a83dcf7b670e93b83da2368ff2e18a = $(`<div id="html_b7a83dcf7b670e93b83da2368ff2e18a" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: E4:AA:5D:45:0A:4F <br> Channel: 64</div>`)[0];
+                popup_1ffb7451d114e5de98e97e880b61fc76.setContent(html_b7a83dcf7b670e93b83da2368ff2e18a);
+            
+        
+
+        marker_368f9a276082784a6cb265a93f57a45c.bindPopup(popup_1ffb7451d114e5de98e97e880b61fc76)
+        ;
+
+        
+    
+    
+            var marker_4ab3dd5751c6e992e7d98efd9c6eee29 = L.marker(
+                [56.854126972619426, 14.833093333457205],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_68508102368e778406139383d4ef3c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4ab3dd5751c6e992e7d98efd9c6eee29.setIcon(icon_68508102368e778406139383d4ef3c8a);
+        
+    
+        var popup_4bc4445ad7e7d9e219988b9de5501f88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c09d39b3bc2c729c02a7e2a3e35148d7 = $(`<div id="html_c09d39b3bc2c729c02a7e2a3e35148d7" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:D2:20 <br> Channel: 1</div>`)[0];
+                popup_4bc4445ad7e7d9e219988b9de5501f88.setContent(html_c09d39b3bc2c729c02a7e2a3e35148d7);
+            
+        
+
+        marker_4ab3dd5751c6e992e7d98efd9c6eee29.bindPopup(popup_4bc4445ad7e7d9e219988b9de5501f88)
+        ;
+
+        
+    
+    
+            var marker_297c12da63b8afc3f11fc1c509c4285a = L.marker(
+                [56.854127665340684, 14.8330936316521],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_a6e346bf61b3e104dbe15978e049af82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_297c12da63b8afc3f11fc1c509c4285a.setIcon(icon_a6e346bf61b3e104dbe15978e049af82);
+        
+    
+        var popup_193009a5f0c7a33f140439cf58df1f8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_126d64f35cb99d683535fe78d818c5db = $(`<div id="html_126d64f35cb99d683535fe78d818c5db" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:97:D2:2D <br> Channel: 44</div>`)[0];
+                popup_193009a5f0c7a33f140439cf58df1f8e.setContent(html_126d64f35cb99d683535fe78d818c5db);
+            
+        
+
+        marker_297c12da63b8afc3f11fc1c509c4285a.bindPopup(popup_193009a5f0c7a33f140439cf58df1f8e)
+        ;
+
+        
+    
+    
+            var marker_db1b3a001f2fc597a5c259f7d77299d8 = L.marker(
+                [56.854127665340684, 14.8330936316521],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_dd8c5656f3fcf59aa547392d4476780b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_db1b3a001f2fc597a5c259f7d77299d8.setIcon(icon_dd8c5656f3fcf59aa547392d4476780b);
+        
+    
+        var popup_5f723279712a46df9d510b641b869eec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55579e98607b2ae8d6b04c58ac6eef40 = $(`<div id="html_55579e98607b2ae8d6b04c58ac6eef40" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:97:D2:2F <br> Channel: 44</div>`)[0];
+                popup_5f723279712a46df9d510b641b869eec.setContent(html_55579e98607b2ae8d6b04c58ac6eef40);
+            
+        
+
+        marker_db1b3a001f2fc597a5c259f7d77299d8.bindPopup(popup_5f723279712a46df9d510b641b869eec)
+        ;
+
+        
+    
+    
+            var marker_52a48099146525e43d5d4b97dd50fed5 = L.marker(
+                [56.85426810384628, 14.833141540177166],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7b3c10a6157b4ed8cadafe5df44b9d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_52a48099146525e43d5d4b97dd50fed5.setIcon(icon_7b3c10a6157b4ed8cadafe5df44b9d7a);
+        
+    
+        var popup_ed1a61a1f3889db16a1d9ee2c5f4e880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64eb52c4852348a67301a8d3337f1b2a = $(`<div id="html_64eb52c4852348a67301a8d3337f1b2a" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9A:99:62 <br> Channel: 11</div>`)[0];
+                popup_ed1a61a1f3889db16a1d9ee2c5f4e880.setContent(html_64eb52c4852348a67301a8d3337f1b2a);
+            
+        
+
+        marker_52a48099146525e43d5d4b97dd50fed5.bindPopup(popup_ed1a61a1f3889db16a1d9ee2c5f4e880)
+        ;
+
+        
+    
+    
+            var marker_270094ccabbd69ed2a0605f4df89fc87 = L.marker(
+                [56.854267504962046, 14.83314780929646],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_30c39f660691dfbec827413641ed782c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_270094ccabbd69ed2a0605f4df89fc87.setIcon(icon_30c39f660691dfbec827413641ed782c);
+        
+    
+        var popup_f6c445fe650cd2994afc1c254aec098d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a54e039b39553b36d69a1dc6487b7257 = $(`<div id="html_a54e039b39553b36d69a1dc6487b7257" style="width: 100.0%; height: 100.0%;">SSID: TP-Link_0CC0 <br> MAC: 50:91:E3:DC:0C:C0 <br> Channel: 9</div>`)[0];
+                popup_f6c445fe650cd2994afc1c254aec098d.setContent(html_a54e039b39553b36d69a1dc6487b7257);
+            
+        
+
+        marker_270094ccabbd69ed2a0605f4df89fc87.bindPopup(popup_f6c445fe650cd2994afc1c254aec098d)
+        ;
+
+        
+    
+    
+            var marker_fcdfb1d6d016e60c4e8bdbd5b6363c09 = L.marker(
+                [56.85426805754478, 14.83314570039511],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_259179e368e6b64caab30d32f76d4a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fcdfb1d6d016e60c4e8bdbd5b6363c09.setIcon(icon_259179e368e6b64caab30d32f76d4a5f);
+        
+    
+        var popup_7a0db40cd936d4619fef82ee7da4da7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f61eb39bbae11b866d0dc4837f6f155 = $(`<div id="html_4f61eb39bbae11b866d0dc4837f6f155" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9A:99:60 <br> Channel: 11</div>`)[0];
+                popup_7a0db40cd936d4619fef82ee7da4da7b.setContent(html_4f61eb39bbae11b866d0dc4837f6f155);
+            
+        
+
+        marker_fcdfb1d6d016e60c4e8bdbd5b6363c09.bindPopup(popup_7a0db40cd936d4619fef82ee7da4da7b)
+        ;
+
+        
+    
+    
+            var marker_bdc08af2d314cb09576857796f7533fd = L.marker(
+                [56.854268132039465, 14.833143678835679],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7c8cf9eb27fcd3dd5c577da324986e94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bdc08af2d314cb09576857796f7533fd.setIcon(icon_7c8cf9eb27fcd3dd5c577da324986e94);
+        
+    
+        var popup_f257b01d0f0844b749ba9482299a21bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28fa3b1d6637b0943d537286a99329aa = $(`<div id="html_28fa3b1d6637b0943d537286a99329aa" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9A:99:6D <br> Channel: 100</div>`)[0];
+                popup_f257b01d0f0844b749ba9482299a21bf.setContent(html_28fa3b1d6637b0943d537286a99329aa);
+            
+        
+
+        marker_bdc08af2d314cb09576857796f7533fd.bindPopup(popup_f257b01d0f0844b749ba9482299a21bf)
+        ;
+
+        
+    
+    
+            var marker_3e53ae9c8ba7f74a3718523a18be4d7a = L.marker(
+                [56.854268132039465, 14.833143678835679],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_20275bd23b5d44ff1f8d6488e294d5f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e53ae9c8ba7f74a3718523a18be4d7a.setIcon(icon_20275bd23b5d44ff1f8d6488e294d5f2);
+        
+    
+        var popup_06d05e2177be73504292591f164f07ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_309cc94f791c6dad17f203ecc37072e0 = $(`<div id="html_309cc94f791c6dad17f203ecc37072e0" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9A:99:6F <br> Channel: 100</div>`)[0];
+                popup_06d05e2177be73504292591f164f07ce.setContent(html_309cc94f791c6dad17f203ecc37072e0);
+            
+        
+
+        marker_3e53ae9c8ba7f74a3718523a18be4d7a.bindPopup(popup_06d05e2177be73504292591f164f07ce)
+        ;
+
+        
+    
+    
+            var marker_13a2d3fa847613d7694a5fcc24b1d157 = L.marker(
+                [56.85417918578172, 14.833276452202552],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4e9c74d43399bc7a033e60d735ae3ada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_13a2d3fa847613d7694a5fcc24b1d157.setIcon(icon_4e9c74d43399bc7a033e60d735ae3ada);
+        
+    
+        var popup_7c3945d56b2c5959ccfe17d487d4b6bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de26bf98488a36ddc039d0d7ad6c299d = $(`<div id="html_de26bf98488a36ddc039d0d7ad6c299d" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9B:B2:40 <br> Channel: 6</div>`)[0];
+                popup_7c3945d56b2c5959ccfe17d487d4b6bf.setContent(html_de26bf98488a36ddc039d0d7ad6c299d);
+            
+        
+
+        marker_13a2d3fa847613d7694a5fcc24b1d157.bindPopup(popup_7c3945d56b2c5959ccfe17d487d4b6bf)
+        ;
+
+        
+    
+    
+            var marker_06dccf07f0985906a20b98a408910f59 = L.marker(
+                [56.85418616879135, 14.833284278913421],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_b070b6869f6bd1208ed4676d29dfc55d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_06dccf07f0985906a20b98a408910f59.setIcon(icon_b070b6869f6bd1208ed4676d29dfc55d);
+        
+    
+        var popup_b60376d887e2ff707fbb08a3d9550a00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2904f41c8ceb38dc867cabff8e2b5419 = $(`<div id="html_2904f41c8ceb38dc867cabff8e2b5419" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9B:B2:42 <br> Channel: 6</div>`)[0];
+                popup_b60376d887e2ff707fbb08a3d9550a00.setContent(html_2904f41c8ceb38dc867cabff8e2b5419);
+            
+        
+
+        marker_06dccf07f0985906a20b98a408910f59.bindPopup(popup_b60376d887e2ff707fbb08a3d9550a00)
+        ;
+
+        
+    
+    
+            var marker_f6d34999adf2e5562721cbc2a9bedf35 = L.marker(
+                [56.85384959437132, 14.833593475507266],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_bf31ae7b495ff8b09fcd4d7cb4113a87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f6d34999adf2e5562721cbc2a9bedf35.setIcon(icon_bf31ae7b495ff8b09fcd4d7cb4113a87);
+        
+    
+        var popup_39ae818d390c8852a548a32db7a1bd31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9180b7b658d361971c947431047861dc = $(`<div id="html_9180b7b658d361971c947431047861dc" style="width: 100.0%; height: 100.0%;">SSID: LNU-FTK-labhall <br> MAC: C0:56:27:73:31:04 <br> Channel: 11+7</div>`)[0];
+                popup_39ae818d390c8852a548a32db7a1bd31.setContent(html_9180b7b658d361971c947431047861dc);
+            
+        
+
+        marker_f6d34999adf2e5562721cbc2a9bedf35.bindPopup(popup_39ae818d390c8852a548a32db7a1bd31)
+        ;
+
+        
+    
+    
+            var marker_cf16587e44c940604164eeb8d55b68fe = L.marker(
+                [56.85392009205099, 14.83315734302296],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_926d43cbee3602109b9d09a8fe0dc0bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cf16587e44c940604164eeb8d55b68fe.setIcon(icon_926d43cbee3602109b9d09a8fe0dc0bf);
+        
+    
+        var popup_e837454892c942d91afd591e46b70b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc3a97173c37898eb1e0bc508e9fd5b5 = $(`<div id="html_fc3a97173c37898eb1e0bc508e9fd5b5" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 00:3C:10:7A:85:A2 <br> Channel: 1</div>`)[0];
+                popup_e837454892c942d91afd591e46b70b1d.setContent(html_fc3a97173c37898eb1e0bc508e9fd5b5);
+            
+        
+
+        marker_cf16587e44c940604164eeb8d55b68fe.bindPopup(popup_e837454892c942d91afd591e46b70b1d)
+        ;
+
+        
+    
+    
+            var marker_11b73fd6be686e5ad883f2d4a565c6f6 = L.marker(
+                [56.85384823447949, 14.833604541014541],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_66bbdfbb31efc6a4cff257871336eaef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_11b73fd6be686e5ad883f2d4a565c6f6.setIcon(icon_66bbdfbb31efc6a4cff257871336eaef);
+        
+    
+        var popup_3777c047cb9cb4f3298f51c721f581f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90cff80587d6c9d5cb8fdba14d73ab74 = $(`<div id="html_90cff80587d6c9d5cb8fdba14d73ab74" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 70:69:5A:32:D0:A2 <br> Channel: 11</div>`)[0];
+                popup_3777c047cb9cb4f3298f51c721f581f5.setContent(html_90cff80587d6c9d5cb8fdba14d73ab74);
+            
+        
+
+        marker_11b73fd6be686e5ad883f2d4a565c6f6.bindPopup(popup_3777c047cb9cb4f3298f51c721f581f5)
+        ;
+
+        
+    
+    
+            var marker_f8d772491020bc7e6ca68eb00625d5c0 = L.marker(
+                [56.85392408967499, 14.83314855822495],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_bdaa5f88d7234942b37181767ed5f886 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f8d772491020bc7e6ca68eb00625d5c0.setIcon(icon_bdaa5f88d7234942b37181767ed5f886);
+        
+    
+        var popup_38ff191a7c1e3558fc658cbc6cab0901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14d47e0744b52b3b7aee94d8766d3c5d = $(`<div id="html_14d47e0744b52b3b7aee94d8766d3c5d" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 00:3C:10:7A:85:AD <br> Channel: 116</div>`)[0];
+                popup_38ff191a7c1e3558fc658cbc6cab0901.setContent(html_14d47e0744b52b3b7aee94d8766d3c5d);
+            
+        
+
+        marker_f8d772491020bc7e6ca68eb00625d5c0.bindPopup(popup_38ff191a7c1e3558fc658cbc6cab0901)
+        ;
+
+        
+    
+    
+            var marker_2466746c59b546f2366370bec8724d0c = L.marker(
+                [56.85384823447949, 14.833604541014541],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_899c119161930e18565428f6f6e97ef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2466746c59b546f2366370bec8724d0c.setIcon(icon_899c119161930e18565428f6f6e97ef9);
+        
+    
+        var popup_ec7e6f237ade5d08d977d695be3af844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8153e5ca23e10e9e0d328d9ba72ca5c9 = $(`<div id="html_8153e5ca23e10e9e0d328d9ba72ca5c9" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:D6:A6:8F <br> Channel: 48</div>`)[0];
+                popup_ec7e6f237ade5d08d977d695be3af844.setContent(html_8153e5ca23e10e9e0d328d9ba72ca5c9);
+            
+        
+
+        marker_2466746c59b546f2366370bec8724d0c.bindPopup(popup_ec7e6f237ade5d08d977d695be3af844)
+        ;
+
+        
+    
+    
+            var marker_67cc9cc2b45ef6935ab263ed91c6744c = L.marker(
+                [56.85384676540111, 14.833616976055406],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_99f7cb1570abf297d9709a7a473c16f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_67cc9cc2b45ef6935ab263ed91c6744c.setIcon(icon_99f7cb1570abf297d9709a7a473c16f7);
+        
+    
+        var popup_5c4fa7f88f9cf8787ee1f62f327b8028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d586988ec1fe4c92b23fc952cb1e6af = $(`<div id="html_0d586988ec1fe4c92b23fc952cb1e6af" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:D6:A6:8D <br> Channel: 48</div>`)[0];
+                popup_5c4fa7f88f9cf8787ee1f62f327b8028.setContent(html_0d586988ec1fe4c92b23fc952cb1e6af);
+            
+        
+
+        marker_67cc9cc2b45ef6935ab263ed91c6744c.bindPopup(popup_5c4fa7f88f9cf8787ee1f62f327b8028)
+        ;
+
+        
+    
+    
+            var marker_ba01fdd09057f344c51dee82088a77fb = L.marker(
+                [56.85433472592759, 14.832986763545431],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ebc7c7999959f573aef248b26654825b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ba01fdd09057f344c51dee82088a77fb.setIcon(icon_ebc7c7999959f573aef248b26654825b);
+        
+    
+        var popup_0d37b9055bc0fed951ed2202864437c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3e35df2d6e0f8b123223afdb325ba93 = $(`<div id="html_c3e35df2d6e0f8b123223afdb325ba93" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 82:61:B4:21:12:C9 <br> Channel: 9</div>`)[0];
+                popup_0d37b9055bc0fed951ed2202864437c1.setContent(html_c3e35df2d6e0f8b123223afdb325ba93);
+            
+        
+
+        marker_ba01fdd09057f344c51dee82088a77fb.bindPopup(popup_0d37b9055bc0fed951ed2202864437c1)
+        ;
+
+        
+    
+    
+            var marker_bcc14f553a568d56816ca49c4d74ec40 = L.marker(
+                [56.85429004360295, 14.833149805159891],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_432369a78471c3802d28952f8b1e06ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bcc14f553a568d56816ca49c4d74ec40.setIcon(icon_432369a78471c3802d28952f8b1e06ea);
+        
+    
+        var popup_d990330db66fdb18cb8c694b80665402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8abaa28133a14c2f87a03bdfd5526462 = $(`<div id="html_8abaa28133a14c2f87a03bdfd5526462" style="width: 100.0%; height: 100.0%;">SSID: Ehnebo <br> MAC: 48:22:54:F0:E5:31 <br> Channel: 3+7</div>`)[0];
+                popup_d990330db66fdb18cb8c694b80665402.setContent(html_8abaa28133a14c2f87a03bdfd5526462);
+            
+        
+
+        marker_bcc14f553a568d56816ca49c4d74ec40.bindPopup(popup_d990330db66fdb18cb8c694b80665402)
+        ;
+
+        
+    
+    
+            var marker_83a4a582c570c54c7a157ce90f0e9378 = L.marker(
+                [56.85428688950823, 14.833158221361893],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_107341c1a2f0ba3a74ff219338042bfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_83a4a582c570c54c7a157ce90f0e9378.setIcon(icon_107341c1a2f0ba3a74ff219338042bfa);
+        
+    
+        var popup_43a266745393ceb9116d980122181629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93f2cf04ac835ced51da1d06608fb529 = $(`<div id="html_93f2cf04ac835ced51da1d06608fb529" style="width: 100.0%; height: 100.0%;">SSID: Linnea <br> MAC: 54:AF:97:B8:7B:35 <br> Channel: 5</div>`)[0];
+                popup_43a266745393ceb9116d980122181629.setContent(html_93f2cf04ac835ced51da1d06608fb529);
+            
+        
+
+        marker_83a4a582c570c54c7a157ce90f0e9378.bindPopup(popup_43a266745393ceb9116d980122181629)
+        ;
+
+        
+    
+    
+            var marker_f5e83d133fa6217f6fc1f9b389bf8ffa = L.marker(
+                [56.85435214338968, 14.833096973598016],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_99b62dea93a6d87b6b84682fdf5e0087 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f5e83d133fa6217f6fc1f9b389bf8ffa.setIcon(icon_99b62dea93a6d87b6b84682fdf5e0087);
+        
+    
+        var popup_a1eef7be90840941db02e4d40cbe7a29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c6e950902622cf1891606c5e282ac34 = $(`<div id="html_1c6e950902622cf1891606c5e282ac34" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 56:AF:97:A8:7B:35 <br> Channel: 5</div>`)[0];
+                popup_a1eef7be90840941db02e4d40cbe7a29.setContent(html_1c6e950902622cf1891606c5e282ac34);
+            
+        
+
+        marker_f5e83d133fa6217f6fc1f9b389bf8ffa.bindPopup(popup_a1eef7be90840941db02e4d40cbe7a29)
+        ;
+
+        
+    
+    
+            var marker_905d6d1ff8472733c3d1e15d5667fdd4 = L.marker(
+                [56.854083417026594, 14.833343569189312],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f86c82a61ae82fa19b7d4f8470869c6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_905d6d1ff8472733c3d1e15d5667fdd4.setIcon(icon_f86c82a61ae82fa19b7d4f8470869c6d);
+        
+    
+        var popup_70a45f63483d6a8ffc710e5a7f3f906f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e27e77e8e8610483b5882696b3098c = $(`<div id="html_80e27e77e8e8610483b5882696b3098c" style="width: 100.0%; height: 100.0%;">SSID: Senap 2: Electric boogaloo <br> MAC: 82:61:B4:21:12:C8 <br> Channel: 9</div>`)[0];
+                popup_70a45f63483d6a8ffc710e5a7f3f906f.setContent(html_80e27e77e8e8610483b5882696b3098c);
+            
+        
+
+        marker_905d6d1ff8472733c3d1e15d5667fdd4.bindPopup(popup_70a45f63483d6a8ffc710e5a7f3f906f)
+        ;
+
+        
+    
+    
+            var marker_d727dd84d17d41f18e3197d59da7f294 = L.marker(
+                [56.85426909299511, 14.833174925297499],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_08cd3d246306583b921f4b1c81e3a937 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d727dd84d17d41f18e3197d59da7f294.setIcon(icon_08cd3d246306583b921f4b1c81e3a937);
+        
+    
+        var popup_981e8542fc2923b71c39f499cc26f3d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6937e43fd58f99be3ff06661dfd3a84c = $(`<div id="html_6937e43fd58f99be3ff06661dfd3a84c" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 52:91:E3:AC:0C:C0 <br> Channel: 9</div>`)[0];
+                popup_981e8542fc2923b71c39f499cc26f3d1.setContent(html_6937e43fd58f99be3ff06661dfd3a84c);
+            
+        
+
+        marker_d727dd84d17d41f18e3197d59da7f294.bindPopup(popup_981e8542fc2923b71c39f499cc26f3d1)
+        ;
+
+        
+    
+    
+            var marker_102fc86a8d9f3bd88977a00b82e80551 = L.marker(
+                [56.85426761171616, 14.833176012995631],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d782b5e7f0a54abaef521cadf5f0dddb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_102fc86a8d9f3bd88977a00b82e80551.setIcon(icon_d782b5e7f0a54abaef521cadf5f0dddb);
+        
+    
+        var popup_edb1ca778121aa63ea049595adfdbc3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7265811cc76da56370edaee953b09b84 = $(`<div id="html_7265811cc76da56370edaee953b09b84" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: FA:8F:CA:5E:CE:04 <br> Channel: 11</div>`)[0];
+                popup_edb1ca778121aa63ea049595adfdbc3f.setContent(html_7265811cc76da56370edaee953b09b84);
+            
+        
+
+        marker_102fc86a8d9f3bd88977a00b82e80551.bindPopup(popup_edb1ca778121aa63ea049595adfdbc3f)
+        ;
+
+        
+    
+    
+            var marker_d96091c1f6585580b8fc3bad412f2407 = L.marker(
+                [56.853845030878134, 14.833614178933203],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_0790978630734e6e3e47e73ecbcb8750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d96091c1f6585580b8fc3bad412f2407.setIcon(icon_0790978630734e6e3e47e73ecbcb8750);
+        
+    
+        var popup_2f368beffb3a7c58444cf1027c1f2b02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dc55b87701107e923146d79d0e47512 = $(`<div id="html_0dc55b87701107e923146d79d0e47512" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 70:69:5A:32:D0:A0 <br> Channel: 11</div>`)[0];
+                popup_2f368beffb3a7c58444cf1027c1f2b02.setContent(html_0dc55b87701107e923146d79d0e47512);
+            
+        
+
+        marker_d96091c1f6585580b8fc3bad412f2407.bindPopup(popup_2f368beffb3a7c58444cf1027c1f2b02)
+        ;
+
+        
+    
+    
+            var marker_10b0371f4bce71886e9ce1f2fb7aa9d7 = L.marker(
+                [56.853832761905636, 14.833687333898105],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4407fcde6b13f11f06db2365d83b829a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_10b0371f4bce71886e9ce1f2fb7aa9d7.setIcon(icon_4407fcde6b13f11f06db2365d83b829a);
+        
+    
+        var popup_69a762bfce3816d140ba9af1af98b0c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1077140d2904c9cadb4813386368e13 = $(`<div id="html_c1077140d2904c9cadb4813386368e13" style="width: 100.0%; height: 100.0%;">SSID: Freiburg <br> MAC: B0:CC:FE:34:AD:3C <br> Channel: 11+7</div>`)[0];
+                popup_69a762bfce3816d140ba9af1af98b0c3.setContent(html_c1077140d2904c9cadb4813386368e13);
+            
+        
+
+        marker_10b0371f4bce71886e9ce1f2fb7aa9d7.bindPopup(popup_69a762bfce3816d140ba9af1af98b0c3)
+        ;
+
+        
+    
+    
+            var marker_389204429579f16e99565f3a4c181b0d = L.marker(
+                [56.853845030878134, 14.833614178933203],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_9ecad6b1dd35a793635b1947a4cd27b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_389204429579f16e99565f3a4c181b0d.setIcon(icon_9ecad6b1dd35a793635b1947a4cd27b4);
+        
+    
+        var popup_6b864301235b53692503a1764259f733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fcf594cacdcf781d796a437231d7559 = $(`<div id="html_3fcf594cacdcf781d796a437231d7559" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:9B:B5:5F <br> Channel: 132</div>`)[0];
+                popup_6b864301235b53692503a1764259f733.setContent(html_3fcf594cacdcf781d796a437231d7559);
+            
+        
+
+        marker_389204429579f16e99565f3a4c181b0d.bindPopup(popup_6b864301235b53692503a1764259f733)
+        ;
+
+        
+    
+    
+            var marker_adb9c9e1d1c8ae828ec7953bd47f92f2 = L.marker(
+                [56.85382851985525, 14.833676602853378],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_b005eb8a1b30d18b3dfa689fe9c21c11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_adb9c9e1d1c8ae828ec7953bd47f92f2.setIcon(icon_b005eb8a1b30d18b3dfa689fe9c21c11);
+        
+    
+        var popup_b72cebf57234b3bf933882d99631af8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3de5bcf8f9714e8d8dc76f407210289 = $(`<div id="html_f3de5bcf8f9714e8d8dc76f407210289" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 00:1E:42:38:25:30 <br> Channel: 6</div>`)[0];
+                popup_b72cebf57234b3bf933882d99631af8a.setContent(html_f3de5bcf8f9714e8d8dc76f407210289);
+            
+        
+
+        marker_adb9c9e1d1c8ae828ec7953bd47f92f2.bindPopup(popup_b72cebf57234b3bf933882d99631af8a)
+        ;
+
+        
+    
+    
+            var marker_c3e53ddabe8f805556add99c0aef0dc6 = L.marker(
+                [56.85384362822502, 14.83362526070973],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_0a491f26ddb72cc6f826eeeaa7885f65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c3e53ddabe8f805556add99c0aef0dc6.setIcon(icon_0a491f26ddb72cc6f826eeeaa7885f65);
+        
+    
+        var popup_b839e47a82292f3fecbc2f9ac9f07218 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_906fdbff6a5cf2f85ec6e775514c457f = $(`<div id="html_906fdbff6a5cf2f85ec6e775514c457f" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:E0:FA:BD <br> Channel: 132</div>`)[0];
+                popup_b839e47a82292f3fecbc2f9ac9f07218.setContent(html_906fdbff6a5cf2f85ec6e775514c457f);
+            
+        
+
+        marker_c3e53ddabe8f805556add99c0aef0dc6.bindPopup(popup_b839e47a82292f3fecbc2f9ac9f07218)
+        ;
+
+        
+    
+    
+            var marker_e585a700661fd88086aeaae7f597a2ce = L.marker(
+                [56.85384341951959, 14.833627405787716],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ff75e05a078267d582d8daa1f8599e03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e585a700661fd88086aeaae7f597a2ce.setIcon(icon_ff75e05a078267d582d8daa1f8599e03);
+        
+    
+        var popup_589738e01be33d7dd23d92cfecd0289d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db441670bf17066d33bf1f095076362a = $(`<div id="html_db441670bf17066d33bf1f095076362a" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: FC:5B:39:D6:A6:80 <br> Channel: 1</div>`)[0];
+                popup_589738e01be33d7dd23d92cfecd0289d.setContent(html_db441670bf17066d33bf1f095076362a);
+            
+        
+
+        marker_e585a700661fd88086aeaae7f597a2ce.bindPopup(popup_589738e01be33d7dd23d92cfecd0289d)
+        ;
+
+        
+    
+    
+            var marker_541acd2a85871334681419f2ca90d38c = L.marker(
+                [56.853843318106684, 14.833628318067325],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4fc393ed56f29d25602414b4b8e9ee1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_541acd2a85871334681419f2ca90d38c.setIcon(icon_4fc393ed56f29d25602414b4b8e9ee1d);
+        
+    
+        var popup_2355d52ea8c50c5886eb60132f262f43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf130998a88428bca76a529a96523948 = $(`<div id="html_cf130998a88428bca76a529a96523948" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: FC:5B:39:D6:A6:82 <br> Channel: 1</div>`)[0];
+                popup_2355d52ea8c50c5886eb60132f262f43.setContent(html_cf130998a88428bca76a529a96523948);
+            
+        
+
+        marker_541acd2a85871334681419f2ca90d38c.bindPopup(popup_2355d52ea8c50c5886eb60132f262f43)
+        ;
+
+        
+    
+    
+            var marker_4fd4600d4243df2d0c2f5655d9a765e1 = L.marker(
+                [56.85384230864247, 14.833625884105762],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_4b8812729c9cd117c7f28c39ee01a308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4fd4600d4243df2d0c2f5655d9a765e1.setIcon(icon_4b8812729c9cd117c7f28c39ee01a308);
+        
+    
+        var popup_9368703552ae63528334fb6e950c93c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a8e726303ae23372d31a138cb3a1aa = $(`<div id="html_98a8e726303ae23372d31a138cb3a1aa" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9A:CC:02 <br> Channel: 1</div>`)[0];
+                popup_9368703552ae63528334fb6e950c93c3.setContent(html_98a8e726303ae23372d31a138cb3a1aa);
+            
+        
+
+        marker_4fd4600d4243df2d0c2f5655d9a765e1.bindPopup(popup_9368703552ae63528334fb6e950c93c3)
+        ;
+
+        
+    
+    
+            var marker_8dff84a38f56c43cb70a1b67f4b35d1e = L.marker(
+                [56.85382851181893, 14.833723146326934],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_92f950c1aa97292ac6ac8b7635cb4174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8dff84a38f56c43cb70a1b67f4b35d1e.setIcon(icon_92f950c1aa97292ac6ac8b7635cb4174);
+        
+    
+        var popup_0942358ff5922e7d108026fe09a95008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c475a08e29b4267a908578fb107960b1 = $(`<div id="html_c475a08e29b4267a908578fb107960b1" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 78:BC:1A:9A:CC:0D <br> Channel: 100</div>`)[0];
+                popup_0942358ff5922e7d108026fe09a95008.setContent(html_c475a08e29b4267a908578fb107960b1);
+            
+        
+
+        marker_8dff84a38f56c43cb70a1b67f4b35d1e.bindPopup(popup_0942358ff5922e7d108026fe09a95008)
+        ;
+
+        
+    
+    
+            var marker_de06a5f70531e1b7ba57b9c12975a1a9 = L.marker(
+                [56.85384321872065, 14.833629119854708],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_129840e10f9c6bb6ae6c27a3f8781562 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_de06a5f70531e1b7ba57b9c12975a1a9.setIcon(icon_129840e10f9c6bb6ae6c27a3f8781562);
+        
+    
+        var popup_60e6304255f910563f88ea1c1f7c326e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8fd5ed2597e0e7aaea95440c1548d1a = $(`<div id="html_c8fd5ed2597e0e7aaea95440c1548d1a" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:9B:B5:5D <br> Channel: 132</div>`)[0];
+                popup_60e6304255f910563f88ea1c1f7c326e.setContent(html_c8fd5ed2597e0e7aaea95440c1548d1a);
+            
+        
+
+        marker_de06a5f70531e1b7ba57b9c12975a1a9.bindPopup(popup_60e6304255f910563f88ea1c1f7c326e)
+        ;
+
+        
+    
+    
+            var marker_7c3cdcb97bd2414a014f1e3cca26b44b = L.marker(
+                [56.85384259215935, 14.833619215658732],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_d5bb061638d8cf8d6ebe42bc5812d9f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7c3cdcb97bd2414a014f1e3cca26b44b.setIcon(icon_d5bb061638d8cf8d6ebe42bc5812d9f8);
+        
+    
+        var popup_ce4f15a7dae0f2de05b00007d895d104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c071afe720173b39b4cc20b1fbd693 = $(`<div id="html_14c071afe720173b39b4cc20b1fbd693" style="width: 100.0%; height: 100.0%;">SSID: LNU-FTK-labhall_5GHz <br> MAC: C0:56:27:73:31:05 <br> Channel: 36+40+44+48</div>`)[0];
+                popup_ce4f15a7dae0f2de05b00007d895d104.setContent(html_14c071afe720173b39b4cc20b1fbd693);
+            
+        
+
+        marker_7c3cdcb97bd2414a014f1e3cca26b44b.bindPopup(popup_ce4f15a7dae0f2de05b00007d895d104)
+        ;
+
+        
+    
+    
+            var marker_6b08abd8a1d110a621dc042e7b3d64ed = L.marker(
+                [56.853843019226716, 14.833630444562953],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_ab89accfe94c98d2f366af8a849aac11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6b08abd8a1d110a621dc042e7b3d64ed.setIcon(icon_ab89accfe94c98d2f366af8a849aac11);
+        
+    
+        var popup_49bdb6f7a14070fc7767b21897604fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d7e5de105d1322331a63c2a2710e878 = $(`<div id="html_1d7e5de105d1322331a63c2a2710e878" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:E0:FA:B2 <br> Channel: 11</div>`)[0];
+                popup_49bdb6f7a14070fc7767b21897604fb1.setContent(html_1d7e5de105d1322331a63c2a2710e878);
+            
+        
+
+        marker_6b08abd8a1d110a621dc042e7b3d64ed.bindPopup(popup_49bdb6f7a14070fc7767b21897604fb1)
+        ;
+
+        
+    
+    
+            var marker_fc0fd9fe2c15fc754be4c8d20b5c7627 = L.marker(
+                [56.85384279969255, 14.833631555063535],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_25c23f3924f75688d6687e11710323f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc0fd9fe2c15fc754be4c8d20b5c7627.setIcon(icon_25c23f3924f75688d6687e11710323f4);
+        
+    
+        var popup_863a8b9de9539c2f90ad0b741f722281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4caee0e080e515fb3368b0b286dae652 = $(`<div id="html_4caee0e080e515fb3368b0b286dae652" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:E0:FA:BF <br> Channel: 132</div>`)[0];
+                popup_863a8b9de9539c2f90ad0b741f722281.setContent(html_4caee0e080e515fb3368b0b286dae652);
+            
+        
+
+        marker_fc0fd9fe2c15fc754be4c8d20b5c7627.bindPopup(popup_863a8b9de9539c2f90ad0b741f722281)
+        ;
+
+        
+    
+    
+            var marker_641a8285ad88330937be534a72f4aa98 = L.marker(
+                [56.853842535913344, 14.833632312916423],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_84b4b8403acaa4369b65d7c6bb6c3d5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_641a8285ad88330937be534a72f4aa98.setIcon(icon_84b4b8403acaa4369b65d7c6bb6c3d5c);
+        
+    
+        var popup_380c435791c3ed88f5476e0ea1c334ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6742b41aa5228484101242bdc936efb = $(`<div id="html_a6742b41aa5228484101242bdc936efb" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:E0:FA:B0 <br> Channel: 11</div>`)[0];
+                popup_380c435791c3ed88f5476e0ea1c334ba.setContent(html_a6742b41aa5228484101242bdc936efb);
+            
+        
+
+        marker_641a8285ad88330937be534a72f4aa98.bindPopup(popup_380c435791c3ed88f5476e0ea1c334ba)
+        ;
+
+        
+    
+    
+            var marker_cd359e91ea3850934c31a93ddc959011 = L.marker(
+                [56.853845292426264, 14.83363578058019],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_a83ae1c6b0187eb8dc76364aff4b0d07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cd359e91ea3850934c31a93ddc959011.setIcon(icon_a83ae1c6b0187eb8dc76364aff4b0d07);
+        
+    
+        var popup_76ceec47df7e84bcee36fbf952963104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9afb738f6fc304d157a03c9cb3d914d0 = $(`<div id="html_9afb738f6fc304d157a03c9cb3d914d0" style="width: 100.0%; height: 100.0%;">SSID: LNU-Guest <br> MAC: 80:E0:1D:9B:B5:52 <br> Channel: 1</div>`)[0];
+                popup_76ceec47df7e84bcee36fbf952963104.setContent(html_9afb738f6fc304d157a03c9cb3d914d0);
+            
+        
+
+        marker_cd359e91ea3850934c31a93ddc959011.bindPopup(popup_76ceec47df7e84bcee36fbf952963104)
+        ;
+
+        
+    
+    
+            var marker_6df15c1edf4dc7ca2cd27debee37fb27 = L.marker(
+                [56.853850949438424, 14.833629072226326],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_3ec38206b899f61e64080d1694312d59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6df15c1edf4dc7ca2cd27debee37fb27.setIcon(icon_3ec38206b899f61e64080d1694312d59);
+        
+    
+        var popup_a8bf9921d7ad8e7cda72a8a74065f966 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c199cdad1c4013d6292a922b4c603e98 = $(`<div id="html_c199cdad1c4013d6292a922b4c603e98" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 80:E0:1D:9B:B5:50 <br> Channel: 1</div>`)[0];
+                popup_a8bf9921d7ad8e7cda72a8a74065f966.setContent(html_c199cdad1c4013d6292a922b4c603e98);
+            
+        
+
+        marker_6df15c1edf4dc7ca2cd27debee37fb27.bindPopup(popup_a8bf9921d7ad8e7cda72a8a74065f966)
+        ;
+
+        
+    
+    
+            var marker_b996d5b03223ae3c07833a7d7cdbbd10 = L.marker(
+                [56.853862723003495, 14.833562947543609],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_802c8bfaae51a7f71084c3751530fa92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b996d5b03223ae3c07833a7d7cdbbd10.setIcon(icon_802c8bfaae51a7f71084c3751530fa92);
+        
+    
+        var popup_1cebda36b0441deea96b42fb1a47681f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6929adc94060af5d6b02d24f2bf45a4 = $(`<div id="html_a6929adc94060af5d6b02d24f2bf45a4" style="width: 100.0%; height: 100.0%;">SSID: Senap 2: Electric boogaloo <br> MAC: 7A:61:B4:21:12:CF <br> Channel: 36+40+44+48+52+56+60+64</div>`)[0];
+                popup_1cebda36b0441deea96b42fb1a47681f.setContent(html_a6929adc94060af5d6b02d24f2bf45a4);
+            
+        
+
+        marker_b996d5b03223ae3c07833a7d7cdbbd10.bindPopup(popup_1cebda36b0441deea96b42fb1a47681f)
+        ;
+
+        
+    
+    
+            var marker_4e3f41175ae786d747ac86cd28340c96 = L.marker(
+                [56.85383922398469, 14.833842871541329],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_713d8f2b3aeef2ba77de79a2301a678d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e3f41175ae786d747ac86cd28340c96.setIcon(icon_713d8f2b3aeef2ba77de79a2301a678d);
+        
+    
+        var popup_cbe0e3fd9e5f2e4b33de9ddb373afa2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_131dce7582556e57140fcc039549422f = $(`<div id="html_131dce7582556e57140fcc039549422f" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 7A:61:B4:21:12:C8 <br> Channel: 36+40+44+48+52+56+60+64</div>`)[0];
+                popup_cbe0e3fd9e5f2e4b33de9ddb373afa2b.setContent(html_131dce7582556e57140fcc039549422f);
+            
+        
+
+        marker_4e3f41175ae786d747ac86cd28340c96.bindPopup(popup_cbe0e3fd9e5f2e4b33de9ddb373afa2b)
+        ;
+
+        
+    
+    
+            var marker_749c239786c85bd362532c0d540b0951 = L.marker(
+                [56.853865292902334, 14.833530914783482],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_2570de9a54d13ec81f3e77fd5da1af90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_749c239786c85bd362532c0d540b0951.setIcon(icon_2570de9a54d13ec81f3e77fd5da1af90);
+        
+    
+        var popup_987373fee3b968fc71d824f8e6cd86fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab67453fff541cdd335a86cda2cd7f04 = $(`<div id="html_ab67453fff541cdd335a86cda2cd7f04" style="width: 100.0%; height: 100.0%;">SSID: Stallvägens äldre <br> MAC: 1C:61:B4:5A:4A:77 <br> Channel: 1+5</div>`)[0];
+                popup_987373fee3b968fc71d824f8e6cd86fd.setContent(html_ab67453fff541cdd335a86cda2cd7f04);
+            
+        
+
+        marker_749c239786c85bd362532c0d540b0951.bindPopup(popup_987373fee3b968fc71d824f8e6cd86fd)
+        ;
+
+        
+    
+    
+            var marker_c1c933b12d85bdb265fa011d9c8ed6c6 = L.marker(
+                [56.853865842266856, 14.833524327497098],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_16fbcdca12c8089d24ee905f2c34a165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c1c933b12d85bdb265fa011d9c8ed6c6.setIcon(icon_16fbcdca12c8089d24ee905f2c34a165);
+        
+    
+        var popup_e1111f0584c185956f1ae170e89485a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12dddfcbb29c46c41b61024526061d65 = $(`<div id="html_12dddfcbb29c46c41b61024526061d65" style="width: 100.0%; height: 100.0%;">SSID: TP-Link_45B4 <br> MAC: 3C:84:6A:6D:45:B4 <br> Channel: 3+7</div>`)[0];
+                popup_e1111f0584c185956f1ae170e89485a6.setContent(html_12dddfcbb29c46c41b61024526061d65);
+            
+        
+
+        marker_c1c933b12d85bdb265fa011d9c8ed6c6.bindPopup(popup_e1111f0584c185956f1ae170e89485a6)
+        ;
+
+        
+    
+    
+            var marker_86423e0a484e512533cb34e8d2d54fe0 = L.marker(
+                [56.85386701112753, 14.833510483198982],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_b47f34053a2c384cd9343b1c4eba31f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_86423e0a484e512533cb34e8d2d54fe0.setIcon(icon_b47f34053a2c384cd9343b1c4eba31f4);
+        
+    
+        var popup_8fa2b47f3e7c362182f6e00bfcc2b5c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5826683d27ec0490d045bc5544e22763 = $(`<div id="html_5826683d27ec0490d045bc5544e22763" style="width: 100.0%; height: 100.0%;">SSID: TP-Link_3DBB <br> MAC: 54:AF:97:95:3D:BB <br> Channel: 8</div>`)[0];
+                popup_8fa2b47f3e7c362182f6e00bfcc2b5c3.setContent(html_5826683d27ec0490d045bc5544e22763);
+            
+        
+
+        marker_86423e0a484e512533cb34e8d2d54fe0.bindPopup(popup_8fa2b47f3e7c362182f6e00bfcc2b5c3)
+        ;
+
+        
+    
+    
+            var marker_085281805f6d5c623d067ba8084502ba = L.marker(
+                [56.85386763367289, 14.833503197068758],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_5073df9d878dfb83f5f77d7fad6a582b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_085281805f6d5c623d067ba8084502ba.setIcon(icon_5073df9d878dfb83f5f77d7fad6a582b);
+        
+    
+        var popup_fa4b6679cbdad08846289946aacc72ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d21643118bc50a74ce24b5a773bfa60 = $(`<div id="html_7d21643118bc50a74ce24b5a773bfa60" style="width: 100.0%; height: 100.0%;">SSID: IDA SUPERSTAR <br> MAC: 90:9A:4A:11:5A:3C <br> Channel: 2+6</div>`)[0];
+                popup_fa4b6679cbdad08846289946aacc72ce.setContent(html_7d21643118bc50a74ce24b5a773bfa60);
+            
+        
+
+        marker_085281805f6d5c623d067ba8084502ba.bindPopup(popup_fa4b6679cbdad08846289946aacc72ce)
+        ;
+
+        
+    
+    
+            var marker_731a2ae88dc80ae9dcbb9b1d00868aeb = L.marker(
+                [56.853868283886925, 14.83349564671517],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_804576ebf3e7305f3c1267c4c45311cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_731a2ae88dc80ae9dcbb9b1d00868aeb.setIcon(icon_804576ebf3e7305f3c1267c4c45311cf);
+        
+    
+        var popup_684bcae17220203fed32c6086a6025b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd7d6a936f2c7e2faadb864a178a8b9b = $(`<div id="html_bd7d6a936f2c7e2faadb864a178a8b9b" style="width: 100.0%; height: 100.0%;">SSID: You’re a Wi-Fi, Harry <br> MAC: 40:ED:00:87:96:4B <br> Channel: 4</div>`)[0];
+                popup_684bcae17220203fed32c6086a6025b3.setContent(html_bd7d6a936f2c7e2faadb864a178a8b9b);
+            
+        
+
+        marker_731a2ae88dc80ae9dcbb9b1d00868aeb.bindPopup(popup_684bcae17220203fed32c6086a6025b3)
+        ;
+
+        
+    
+    
+            var marker_a9f32bbfed87d4bb6eacd82edf8af431 = L.marker(
+                [56.85386896365615, 14.833487814122986],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_322c3446f6b78858c7162c0a80bf2614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a9f32bbfed87d4bb6eacd82edf8af431.setIcon(icon_322c3446f6b78858c7162c0a80bf2614);
+        
+    
+        var popup_1f4bd6429db93cff106a5fa18021217c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a87711408284ffb72db58afdbd32f1a = $(`<div id="html_5a87711408284ffb72db58afdbd32f1a" style="width: 100.0%; height: 100.0%;">SSID: DIR-842V2-35C0 <br> MAC: 0C:0E:76:0A:35:C3 <br> Channel: 13</div>`)[0];
+                popup_1f4bd6429db93cff106a5fa18021217c.setContent(html_5a87711408284ffb72db58afdbd32f1a);
+            
+        
+
+        marker_a9f32bbfed87d4bb6eacd82edf8af431.bindPopup(popup_1f4bd6429db93cff106a5fa18021217c)
+        ;
+
+        
+    
+    
+            var marker_23f0cbcca9cc94368ed172e2549a4c63 = L.marker(
+                [56.85386896365615, 14.833487814122986],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_c7719eb222388c9a161ed638deac7282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23f0cbcca9cc94368ed172e2549a4c63.setIcon(icon_c7719eb222388c9a161ed638deac7282);
+        
+    
+        var popup_31a6c6686b056df1ff7de0101f14309d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9161a4772c70a46c0de2c211a53c2fc3 = $(`<div id="html_9161a4772c70a46c0de2c211a53c2fc3" style="width: 100.0%; height: 100.0%;">SSID: Sv42b <br> MAC: 5C:62:8B:4F:D4:00 <br> Channel: 10+6</div>`)[0];
+                popup_31a6c6686b056df1ff7de0101f14309d.setContent(html_9161a4772c70a46c0de2c211a53c2fc3);
+            
+        
+
+        marker_23f0cbcca9cc94368ed172e2549a4c63.bindPopup(popup_31a6c6686b056df1ff7de0101f14309d)
+        ;
+
+        
+    
+    
+            var marker_226cb46c10c63646e4aee8cbbe142c8c = L.marker(
+                [56.85386896365615, 14.833487814122986],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f314078b6e120ffc4bca28070eb4a5ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_226cb46c10c63646e4aee8cbbe142c8c.setIcon(icon_f314078b6e120ffc4bca28070eb4a5ed);
+        
+    
+        var popup_f0f16729d19e71f9478b756a6a6bebac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a857ffd4da38046e83df34c7c4ade197 = $(`<div id="html_a857ffd4da38046e83df34c7c4ade197" style="width: 100.0%; height: 100.0%;">SSID: Freiburg_Wi-Fi5 <br> MAC: B0:CC:FE:F4:AD:41 <br> Channel: 11+7</div>`)[0];
+                popup_f0f16729d19e71f9478b756a6a6bebac.setContent(html_a857ffd4da38046e83df34c7c4ade197);
+            
+        
+
+        marker_226cb46c10c63646e4aee8cbbe142c8c.bindPopup(popup_f0f16729d19e71f9478b756a6a6bebac)
+        ;
+
+        
+    
+    
+            var marker_097471532379ddb4a2bd7faae2828ddc = L.marker(
+                [56.8538383740411, 14.8338375985622],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_f2b243eeb91e77dc87a2b12cdae83cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_097471532379ddb4a2bd7faae2828ddc.setIcon(icon_f2b243eeb91e77dc87a2b12cdae83cb8);
+        
+    
+        var popup_856fe79c66592b79061efd88f2b1a021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22cd5623be3d9215c4d8cb0998c7ae96 = $(`<div id="html_22cd5623be3d9215c4d8cb0998c7ae96" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: FA:8F:CA:92:1D:BF <br> Channel: 8</div>`)[0];
+                popup_856fe79c66592b79061efd88f2b1a021.setContent(html_22cd5623be3d9215c4d8cb0998c7ae96);
+            
+        
+
+        marker_097471532379ddb4a2bd7faae2828ddc.bindPopup(popup_856fe79c66592b79061efd88f2b1a021)
+        ;
+
+        
+    
+    
+            var marker_05a6bc871bcead7da0704ba4b9607ebe = L.marker(
+                [56.85386967504253, 14.833479679601142],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_9378fb86ea7e10945fea6ac23da2a251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_05a6bc871bcead7da0704ba4b9607ebe.setIcon(icon_9378fb86ea7e10945fea6ac23da2a251);
+        
+    
+        var popup_fb2f709403bdaf7fee60e66f3e28292e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_488d8d40e71e27698d06ffe1746de401 = $(`<div id="html_488d8d40e71e27698d06ffe1746de401" style="width: 100.0%; height: 100.0%;">SSID: Tele2_2eee2e <br> MAC: 38:A6:59:2E:EE:33 <br> Channel: 11</div>`)[0];
+                popup_fb2f709403bdaf7fee60e66f3e28292e.setContent(html_488d8d40e71e27698d06ffe1746de401);
+            
+        
+
+        marker_05a6bc871bcead7da0704ba4b9607ebe.bindPopup(popup_fb2f709403bdaf7fee60e66f3e28292e)
+        ;
+
+        
+    
+    
+            var marker_591b3791d00599eec1a553046aacde36 = L.marker(
+                [56.85386967504253, 14.833479679601142],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_0534a8556346c6ff60c4b65c26c3da63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_591b3791d00599eec1a553046aacde36.setIcon(icon_0534a8556346c6ff60c4b65c26c3da63);
+        
+    
+        var popup_ddee72139a6ac420224a36491a0ea6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d8932b84f70559466809088397ddf6c = $(`<div id="html_3d8932b84f70559466809088397ddf6c" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 56:AF:97:A5:3D:BB <br> Channel: 8</div>`)[0];
+                popup_ddee72139a6ac420224a36491a0ea6f5.setContent(html_3d8932b84f70559466809088397ddf6c);
+            
+        
+
+        marker_591b3791d00599eec1a553046aacde36.bindPopup(popup_ddee72139a6ac420224a36491a0ea6f5)
+        ;
+
+        
+    
+    
+            var marker_2606348c80dcdabd3c63ae5246ce8d70 = L.marker(
+                [56.85386967504253, 14.833479679601142],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_476e0fdd28a48804b56ba7ed401a0fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2606348c80dcdabd3c63ae5246ce8d70.setIcon(icon_476e0fdd28a48804b56ba7ed401a0fcb);
+        
+    
+        var popup_a705a3b0484f553a27f56eeb4d60e5e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7487c9f1d87dfffc812fdbf9a0d9f91f = $(`<div id="html_7487c9f1d87dfffc812fdbf9a0d9f91f" style="width: 100.0%; height: 100.0%;">SSID: nan <br> MAC: 62:ED:00:87:96:4B <br> Channel: 4</div>`)[0];
+                popup_a705a3b0484f553a27f56eeb4d60e5e8.setContent(html_7487c9f1d87dfffc812fdbf9a0d9f91f);
+            
+        
+
+        marker_2606348c80dcdabd3c63ae5246ce8d70.bindPopup(popup_a705a3b0484f553a27f56eeb4d60e5e8)
+        ;
+
+        
+    
+    
+            var marker_942e8f275829f0d0b3d5b01dae614613 = L.marker(
+                [56.85386967504253, 14.833479679601142],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_e621904ff412cf0947f9c819d6b67e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_942e8f275829f0d0b3d5b01dae614613.setIcon(icon_e621904ff412cf0947f9c819d6b67e28);
+        
+    
+        var popup_b0c140a5f2c393e46167c1539be8d84c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cbf7f5b602fb10ec692b97a1b985fd5 = $(`<div id="html_0cbf7f5b602fb10ec692b97a1b985fd5" style="width: 100.0%; height: 100.0%;">SSID: NETGEAR89 <br> MAC: 8C:3B:AD:EF:73:B1 <br> Channel: 13</div>`)[0];
+                popup_b0c140a5f2c393e46167c1539be8d84c.setContent(html_0cbf7f5b602fb10ec692b97a1b985fd5);
+            
+        
+
+        marker_942e8f275829f0d0b3d5b01dae614613.bindPopup(popup_b0c140a5f2c393e46167c1539be8d84c)
+        ;
+
+        
+    
+    
+            var marker_3341af20e4371d4219f63351f82b3131 = L.marker(
+                [56.85386967504253, 14.833479679601142],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_7695d592c19c10cd88e3cf0be5011c5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3341af20e4371d4219f63351f82b3131.setIcon(icon_7695d592c19c10cd88e3cf0be5011c5d);
+        
+    
+        var popup_13fda264ee88b8b674ac290c96a5dce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ea4da0b2859e8a0b8790e16e9fb8aa7 = $(`<div id="html_7ea4da0b2859e8a0b8790e16e9fb8aa7" style="width: 100.0%; height: 100.0%;">SSID: Boden <br> MAC: B0:6A:41:D7:D9:CF <br> Channel: 6</div>`)[0];
+                popup_13fda264ee88b8b674ac290c96a5dce1.setContent(html_7ea4da0b2859e8a0b8790e16e9fb8aa7);
+            
+        
+
+        marker_3341af20e4371d4219f63351f82b3131.bindPopup(popup_13fda264ee88b8b674ac290c96a5dce1)
+        ;
+
+        
+    
+    
+            var marker_8d7f5edba4fb70fb6db632c0f5560ffe = L.marker(
+                [56.853874750880614, 14.833423161023376],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_16760a1af5ce02d2146b87c0477bed7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8d7f5edba4fb70fb6db632c0f5560ffe.setIcon(icon_16760a1af5ce02d2146b87c0477bed7e);
+        
+    
+        var popup_cb4b492c99de148cae2d999990ca33e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd65e47df9598dac6cfcd5de39ae98b6 = $(`<div id="html_dd65e47df9598dac6cfcd5de39ae98b6" style="width: 100.0%; height: 100.0%;">SSID: Halldén <br> MAC: 90:9A:4A:87:A8:32 <br> Channel: 3+7</div>`)[0];
+                popup_cb4b492c99de148cae2d999990ca33e2.setContent(html_dd65e47df9598dac6cfcd5de39ae98b6);
+            
+        
+
+        marker_8d7f5edba4fb70fb6db632c0f5560ffe.bindPopup(popup_cb4b492c99de148cae2d999990ca33e2)
+        ;
+
+        
+    
+    
+            var marker_68083c240d646d780df26aaec2f6fdad = L.marker(
+                [56.85388434009179, 14.833316753307978],
+                {}
+            ).addTo(map_033364fb455ba39ebe0026f60141961b);
+        
+    
+            var icon_70c357abc0284921514c378bad7c5206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "wifi", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_68083c240d646d780df26aaec2f6fdad.setIcon(icon_70c357abc0284921514c378bad7c5206);
+        
+    
+        var popup_7b9e8095a04bd7d322fcdde56af01f31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9e579348a1cb1ff2f74b567087c2315 = $(`<div id="html_f9e579348a1cb1ff2f74b567087c2315" style="width: 100.0%; height: 100.0%;">SSID: eduroam <br> MAC: 78:BC:1A:9A:CC:0F <br> Channel: 100</div>`)[0];
+                popup_7b9e8095a04bd7d322fcdde56af01f31.setContent(html_f9e579348a1cb1ff2f74b567087c2315);
+            
+        
+
+        marker_68083c240d646d780df26aaec2f6fdad.bindPopup(popup_7b9e8095a04bd7d322fcdde56af01f31)
+        ;
+
+        
+    
+</script>
+</html>
